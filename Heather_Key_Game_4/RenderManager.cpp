@@ -61,15 +61,7 @@ void RenderManager::processGUIButton(std::string btn_name)
    }
    else if (btn_name == "Ocean")
    {
-      //if (!oceanOn)
-      //{
          game_manager->playAudio(9, 1);
-      //}
-      //else
-      //{
-         
-     // }
-
    }
    else
    {
@@ -223,7 +215,7 @@ void RenderManager::joystickAxisMoved(int* amount)
     //Control stick axis tend to equal +-~500 when they are idle (as in not beig touched)
     //Triggers start at one extreme and end at the other as they are pulled down.
 
-    Camera* camera = scene_manager->getCamera("Camera");
+   /* Camera* camera = scene_manager->getCamera("Camera");
     const Vector3& camera_pos = camera->getPosition();
     const Vector3& camera_dir = camera->getDirection();
 
@@ -241,7 +233,7 @@ void RenderManager::joystickAxisMoved(int* amount)
                                  //left stick n/s            left stick e/w
     float x_pos = camera_pos.x + (camera_dir.x*-sticks[0]) + (camera_dir.z*-sticks[1]);
     float y_pos = camera_pos.y;  //doesn't change
-    float z_pos = camera_pos.z + (camera_dir.z*-sticks[0]) - (camera_dir.x*-sticks[1]);
+    float z_pos = camera_pos.z;// + (camera_dir.z*-sticks[0]) - (camera_dir.x*-sticks[1]);
 
     float yaw = atan2(camera_dir.z, camera_dir.x);   //current yaw
     yaw = yaw + sticks[3]/60.0f;  //right stick e/w
@@ -251,12 +243,75 @@ void RenderManager::joystickAxisMoved(int* amount)
     float z_dir = sin(yaw);
    
     Vector3 dir_vector = Vector3(x_dir, y_dir, z_dir);  
-    dir_vector.normalise();
+   // dir_vector.normalise();
 
     Vector3 pos_vector = Vector3(x_pos, y_pos, z_pos);
       
     camera->setDirection(dir_vector);
-    camera->setPosition(pos_vector);
+    camera->setPosition(pos_vector);*/
+
+    Camera* camera = scene_manager->getCamera("Camera");
+    const Vector3& camera_pos = camera->getPosition();
+    const Vector3& camera_dir = camera->getDirection();
+
+    SceneNode* mini_merry = scene_manager->getSceneNode("MiniMerryTransformNode");
+    const Vector3& mini_merry_pos = mini_merry->getPosition();
+    const Quaternion& mini_merry_ori = mini_merry->getOrientation();
+    // Need camera to move in same way as Mini Merry at same time.
+    // watch video on joystick movement and see if there is a way to make it less sensitive. 
+    float sticks[6];
+    for (int i = 0; i < 6; i++)
+    {
+       if (abs(amount[i]) < 5000) //dead zone
+       {
+          amount[i] = 0;
+       }
+
+       sticks[i] = amount[i]/10000.0f;
+    }
+
+
+
+
+
+                                            // left stick n/s            // left stick e/w
+    float cam_x_pos = camera_pos.x + (camera_dir.x*-sticks[0]) + (camera_dir.z*-sticks[1]);
+    float cam_y_pos = camera_pos.y;
+    float cam_z_pos = camera_pos.z + (camera_dir.z*-sticks[0]) - (camera_dir.x*-sticks[1]);
+
+    float mm_x_pos = mini_merry_pos.x + (camera_dir.x*-sticks[0]) + (camera_dir.z*-sticks[1]);
+    float mm_y_pos = mini_merry_pos.y;
+    float mm_z_pos = mini_merry_pos.z + (camera_dir.z*-sticks[0]) - (camera_dir.x*-sticks[1]);
+
+    /*Radian roll = mini_merry_ori.getRoll();
+    cout << "Curr Roll: " << roll << endl;
+    roll = roll +
+    Radian yaw = mini_merry_ori.getYaw();
+    yaw = yaw + sticks[1]/60.0f;
+
+    mini_merry->rotate(Quaternion(Degree(yaw), Vector3(0,1,0));*/
+    
+   /* float roll = atan2(camera_dir.z, camera_dir.x);   //current yaw
+    roll = roll + sticks[1]/60.0f;  //right stick e/w
+
+    float mm_x_dir = cos(roll);
+    float mm_y_dir = camera_dir.y;
+    float mm_z_dir = sin(roll);*/
+   
+
+    //mini_merry->rotate(Quaternion(Degree(yaw), Vector3::UNIT_Y));
+    //mini_merry->setOrientation(Quaternion(Degree(yaw), Vector3::UNIT_Y));
+  
+
+
+
+
+    Vector3 cam_pos_vector = Vector3(cam_x_pos, cam_y_pos, cam_z_pos);
+    Vector3 mm_pos_vector = Vector3(mm_x_pos, mm_y_pos, mm_z_pos);
+
+    camera->setPosition(cam_pos_vector);
+    mini_merry->setPosition(mm_pos_vector);
+   // mini_merry->setOrientation(roll, mm_x_dir, mm_y_dir, mm_z_dir);
 }
 
 void RenderManager::updateAudio()

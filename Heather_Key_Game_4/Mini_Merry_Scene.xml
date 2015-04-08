@@ -1,9 +1,9 @@
 <scene>
    <scope>1</scope>
    <camera>
-      <position>50,10,0</position>
-      <look_at>0,0,0</look_at>
-      <clip_distance>2,100</clip_distance>
+      <position>0,5,-40</position>
+      <look_at>0,5,0</look_at>
+      <clip_distance>2,1000</clip_distance>
    </camera>
    <light>
       <name>Light</name>
@@ -164,9 +164,9 @@
                </animation>
                <children>
                   <child>
-                     <name>MiniMerryTransform</name>
+                     <name>MiniMerryTransformNode</name>
                      <translation>0,0,0</translation>
-                     <rotation>0,0,0,0</rotation>
+                     <rotation>15,1,0,0</rotation>
                      <scale>1,1,1</scale>
                      <children>
                         <child>
@@ -206,7 +206,7 @@
                                     <mesh>BackSeat.mesh</mesh>
                                     <material>BoatMaterial</material>
                                  </entity>
-                                 <translation>0,-2.6,1.4</translation>
+                                 <translation>0,-3.3,1.4</translation>
                                  <rotation>90,1,0,0</rotation>
                                  <scale>.42,.4,.55</scale>
                                  <children />
@@ -218,7 +218,7 @@
                                     <mesh>FrontSeat.mesh</mesh>
                                     <material>BoatMaterial</material>
                                  </entity>
-                                 <translation>0,-8.6,7</translation>
+                                 <translation>0,-9.3,7</translation>
                                  <rotation>90,1,0,0</rotation>
                                  <scale>.42,.4,.55</scale>
                                  <children />

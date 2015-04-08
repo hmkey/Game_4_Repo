@@ -1,88 +1,68 @@
 ****COMMENT****
-23:18:09
+20:42:44
 Resource metadata loaded.
 ****************
 ****COMMENT****
-23:18:09
+20:42:44
 Scripts parsed successfully.
 ****************
 ****COMMENT****
-23:18:14
+20:42:49
 Meshes loaded successfully.
 ****************
 ****COMMENT****
-23:18:15
+20:42:49
 Entity Ocean successfully placed in scene graph.
 ****************
 ****COMMENT****
-23:18:15
+20:42:49
 Entity Boat successfully placed in scene graph.
 ****************
 ****COMMENT****
-23:18:15
+20:42:49
 Entity Engine successfully placed in scene graph.
 ****************
 ****COMMENT****
-23:18:15
+20:42:49
 Entity BackSeat successfully placed in scene graph.
 ****************
 ****COMMENT****
-23:18:15
+20:42:49
 Entity FrontSeat successfully placed in scene graph.
 ****************
 ****COMMENT****
-23:18:15
+20:42:49
 Entity Figurehead successfully placed in scene graph.
 ****************
 ****COMMENT****
-23:18:15
+20:42:49
 Entity RightPaddleCover successfully placed in scene graph.
 ****************
 ****COMMENT****
-23:18:15
+20:42:49
 Entity LeftPaddleCover successfully placed in scene graph.
 ****************
 ****COMMENT****
-23:18:15
+20:42:49
 Entity RightPaddle successfully placed in scene graph.
 ****************
 ****COMMENT****
-23:18:15
+20:42:49
 Entity LeftPaddle successfully placed in scene graph.
 ****************
 ****COMMENT****
-23:18:15
+20:42:49
 Entity Mugiwara successfully placed in scene graph.
 ****************
 ****COMMENT****
-23:18:23
-OGRE EXCEPTION(5:ItemIdentityException): SceneNode 'Opening 5: Kokoro No Chizu' not found. in SceneManager::getSceneNode at src\OgreSceneManager.cpp (line 917)
-****************
-****ASSERTION FAILURE****
-23:18:23
-Assertion Failed: 
-Src File: RenderManager.cpp
-Line Number: 216
-*************************
-****COMMENT****
-23:18:28
-OGRE EXCEPTION(5:ItemIdentityException): SceneNode 'Opening 11: Share the World' not found. in SceneManager::getSceneNode at src\OgreSceneManager.cpp (line 917)
-****************
-****ASSERTION FAILURE****
-23:18:28
-Assertion Failed: 
-Src File: RenderManager.cpp
-Line Number: 216
-*************************
-****COMMENT****
-23:18:31
+20:44:01
 Destructor started.
 ****************
 ****COMMENT****
-23:18:31
+20:44:01
 Resources unloaded successfully.
 ****************
 ****COMMENT****
-23:18:31
+20:44:01
 Destructor completed.
 ****************

@@ -74,11 +74,9 @@ void GameManager::keyPressed(std::string game_key)
       //delete this;
       //exit(0);
    }
-   else if(game_key == "B")
-   {
 
-   }
 }
+
 
 void GameManager::keyReleased(std::string game_key)
 {
@@ -103,6 +101,13 @@ void GameManager::mouseMoved(uint32 mouse_x, uint32 mouse_y, int mouse_rel_x, in
 void GameManager::joystickButtonPressed(std::string button)
 {
    cout << button << endl;
+
+   if (button == "BACK")
+   {
+      render_manager->stopRendering();
+      //delete this;
+      //exit(0);
+   }
 }
 
 void GameManager::joystickAxisMoved(int* amount)

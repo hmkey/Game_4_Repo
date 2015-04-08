@@ -305,12 +305,22 @@ std::string InputManager::joystickButtonMap(int button)
 
    else if (button == 4)
    {
-      return "L";
+      return "LB";
+   }
+
+   else if (button == 6)
+   {
+      return "BACK";
+   }
+
+   else if (button == 7)
+   {
+      return "SELECT";
    }
 
    else
    {
-      return "R";
+      return "RB";
    }
 }
 
