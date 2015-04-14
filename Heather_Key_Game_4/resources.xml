@@ -202,7 +202,35 @@
    </resource>
 
    <resource>
-       <uid>65</uid>
+      <uid>65</uid>
+      <scope>1</scope>
+      <resource_type>mesh</resource_type>
+      <file_name>Cannonball.mesh</file_name>
+   </resource>
+
+    <resource>
+      <uid>66</uid>
+      <scope>1</scope>
+      <resource_type>mesh</resource_type>
+      <file_name>Rock.mesh</file_name>
+   </resource>
+
+    <resource>
+      <uid>67</uid>
+      <scope>1</scope>
+      <resource_type>mesh</resource_type>
+      <file_name>Rock_2.mesh</file_name>
+   </resource>
+
+    <resource>
+      <uid>68</uid>
+      <scope>1</scope>
+      <resource_type>mesh</resource_type>
+      <file_name>Rock_3.mesh</file_name>
+   </resource>
+
+   <resource>
+       <uid>80</uid>
       <scope>1</scope>
       <resource_type>path</resource_type>
       <file_name>./assets/skybox</file_name>

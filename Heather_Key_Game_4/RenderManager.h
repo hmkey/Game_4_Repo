@@ -49,9 +49,11 @@ class RenderManager
       std::string loaded_group;
 
       uint32 currBgMusicID;
+      bool startPressed;
 
       void addSceneNodeChildren(TiXmlNode* xml_node, Ogre::SceneNode* parent_node, float* values);
       void addSceneNodeAnimation(TiXmlNode* animation_node_xml, Ogre::SceneNode* child_scene_node, std::string animation_name_text, float* values);
+
 
 /*
       void buildSubmarineAnimation(Ogre::SceneNode* submarine_animation_node);
@@ -129,6 +131,7 @@ class RenderManager
       void processComboBox(std::string item_name);
       void setCurrBgMusicID(uint32 id);
       uint32 getCurrBgMusicID();
+      void createCameraAnimation(std::string file_name);
 
 
       void executeScript(std::string file_name, std::string script_name, std::string object_name);

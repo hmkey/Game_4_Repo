@@ -13,6 +13,17 @@
       <layer>Overlapped</layer>
 
    <buttons>
+
+      <button>
+         <name>DodgeLeft</name>
+         <caption>Left</caption>
+         <skin>Button</skin>
+         <position>5,10</position>
+         <size>95,40</size>
+         <align>Default</align>
+         <font>20</font>
+      </button>
+
       <button>
          <name>MerryAnimation</name>
          <caption>Start</caption>
@@ -22,6 +33,17 @@
          <align>Default</align>
          <font>20</font>
       </button>
+
+      <button>
+         <name>DodgeRight</name>
+         <caption>Right</caption>
+         <skin>Button</skin>
+         <position>205,10</position>
+         <size>95,40</size>
+         <align>Default</align>
+         <font>20</font>
+      </button>
+
    </buttons>
 
    <combo_boxes>

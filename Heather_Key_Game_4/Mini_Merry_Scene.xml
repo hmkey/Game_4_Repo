@@ -1,9 +1,9 @@
 <scene>
    <scope>1</scope>
    <camera>
-      <position>0,5,-40</position>
+      <position>0,5,-50</position>
       <look_at>0,5,0</look_at>
-      <clip_distance>2,1000</clip_distance>
+      <clip_distance>2,2000</clip_distance>
    </camera>
    <light>
       <name>Light</name>
@@ -54,6 +54,307 @@
                <children>
                </children>
             </child>
+
+            
+                                    
+                  <child>
+                     <name>MugiwaraNode</name>
+                     <entity>
+                        <name>Mugiwara</name>
+                        <mesh>Mugiwara.mesh</mesh>
+                        <material>StrawHatMaterial</material>
+                     </entity>
+                     <translation>-2.7,30,18</translation>
+                     <rotation>0,0,0,0</rotation>
+                     <scale>1,1,1</scale>
+
+                     <physics>
+                        <object>MugiwaraNode</object>
+                        <collision_shape>box</collision_shape>
+                        <translation>0,0,0</translation>
+                        <rotation>0,0,0,1</rotation>
+                        <collision_paramaters>1.1,1.5,2</collision_paramaters>
+                        <mass>1</mass>
+                     </physics>
+
+                     <children>
+                     </children>
+                  </child>
+                                   
+             
+
+            <child>
+               <name>RockNode1</name>
+               <entity>
+                  <name>Rock1</name>
+                  <mesh>Rock.mesh</mesh>
+                  <material>RockMaterial</material>
+               </entity>
+               <translation>0,-2,80</translation>
+               <rotation>0,1,0,0</rotation>
+               <scale>3,5,3</scale>
+
+                <physics>
+                  <object>RockNode1</object>
+                  <collision_shape>box</collision_shape>
+                  <translation>0,0,80</translation>
+                  <rotation>0,0,0,1</rotation>
+                  <collision_paramaters>5,7,10</collision_paramaters>
+                  <mass>3</mass>
+               </physics>
+
+               <children>
+               </children>
+            </child>
+
+            <child>
+               <name>RockNode2</name>
+               <entity>
+                  <name>Rock2</name>
+                  <mesh>Rock_2.mesh</mesh>
+                  <material>RockMaterial</material>
+               </entity>
+               <translation>60,-2,180</translation>
+               <rotation>45,0,1,0</rotation>
+               <scale>3,5,3</scale>
+               <children>
+               </children>
+            </child>
+
+            <child>
+               <name>RockNode3</name>
+               <entity>
+                  <name>Rock3</name>
+                  <mesh>Rock_3.mesh</mesh>
+                  <material>RockMaterial</material>
+               </entity>
+               <translation>-60,-2,290</translation>
+               <rotation>45,0,1,0</rotation>
+               <scale>3,5,3</scale>
+               <children>
+               </children>
+            </child>
+
+            <child>
+               <animation>
+                  <name>Rock4Animation</name>
+                  <seconds>19</seconds>
+                  <keyframes>
+                     <keyframe>
+                        <time>0.0</time>
+                        <translation>5,0,0</translation>
+                        <rotation>0,0,0,0</rotation>
+                     </keyframe>
+                     <keyframe>
+                        <time>0.5</time>
+                        <translation>10,0,0</translation>
+                        <rotation>0,0,0,0</rotation>
+                     </keyframe>
+                     <keyframe>
+                        <time>1.0</time>
+                        <translation>15,0,0</translation>
+                        <rotation>0,0,0,0</rotation>
+                     </keyframe>
+                     <keyframe>
+                        <time>1.5</time>
+                        <translation>20,0,0</translation>
+                        <rotation>0,0,0,0</rotation>
+                     </keyframe>
+                     <keyframe>
+                        <time>2.0</time>
+                        <translation>25,0,0</translation>
+                        <rotation>0,0,0,0</rotation>
+                     </keyframe>
+                     <keyframe>
+                        <time>2.5</time>
+                        <translation>30,0,0</translation>
+                        <rotation>0,0,0,0</rotation>
+                     </keyframe>
+                     <keyframe>
+                        <time>3.0</time>
+                        <translation>35,0,0</translation>
+                        <rotation>0,0,0,0</rotation>
+                     </keyframe>
+                     <keyframe>
+                        <time>3.5</time>
+                        <translation>40,0,0</translation>
+                        <rotation>0,0,0,0</rotation>
+                     </keyframe>
+                     <keyframe>
+                        <time>4.0</time>
+                        <translation>45,0,0</translation>
+                        <rotation>0,0,0,0</rotation>
+                     </keyframe>
+                     <keyframe>
+                        <time>4.5</time>
+                        <translation>50,0,0</translation>
+                        <rotation>0,0,0,0</rotation>
+                     </keyframe>
+                     <keyframe>
+                        <time>5.0</time>
+                        <translation>45,0,0</translation>
+                        <rotation>0,0,0,0</rotation>
+                     </keyframe>
+                     <keyframe>
+                        <time>5.5</time>
+                        <translation>40,0,0</translation>
+                        <rotation>0,0,0,0</rotation>
+                     </keyframe>
+                     <keyframe>
+                        <time>6.0</time>
+                        <translation>30,0,0</translation>
+                        <rotation>0,0,0,0</rotation>
+                     </keyframe>
+                     <keyframe>
+                        <time>6.5</time>
+                        <translation>25,0,0</translation>
+                        <rotation>0,0,0,0</rotation>
+                     </keyframe>
+                     <keyframe>
+                        <time>7.0</time>
+                        <translation>20,0,0</translation>
+                        <rotation>0,0,0,0</rotation>
+                     </keyframe>
+                      <keyframe>
+                        <time>7.5</time>
+                        <translation>15,0,0</translation>
+                        <rotation>0,0,0,0</rotation>
+                     </keyframe>
+                      <keyframe>
+                        <time>8.0</time>
+                        <translation>10,0,0</translation>
+                        <rotation>0,0,0,0</rotation>
+                     </keyframe>
+                      <keyframe>
+                        <time>8.5</time>
+                        <translation>5,0,0</translation>
+                        <rotation>0,0,0,0</rotation>
+                     </keyframe>
+                      <keyframe>
+                        <time>9.0</time>
+                        <translation>0,0,0</translation>
+                        <rotation>0,0,0,0</rotation>
+                     </keyframe>
+                      <keyframe>
+                        <time>9.5</time>
+                        <translation>-5,0,0</translation>
+                        <rotation>0,0,0,0</rotation>
+                     </keyframe>
+                      <keyframe>
+                        <time>10.0</time>
+                        <translation>-10,0,0</translation>
+                        <rotation>0,0,0,0</rotation>
+                     </keyframe>
+                     <keyframe>
+                        <time>10.5</time>
+                        <translation>-15,0,0</translation>
+                        <rotation>0,0,0,0</rotation>
+                     </keyframe>
+                      <keyframe>
+                        <time>11.0</time>
+                        <translation>-20,0,0</translation>
+                        <rotation>0,0,0,0</rotation>
+                     </keyframe>
+                     <keyframe>
+                        <time>11.5</time>
+                        <translation>-25,0,0</translation>
+                        <rotation>0,0,0,0</rotation>
+                     </keyframe>
+                     <keyframe>
+                        <time>12.0</time>
+                        <translation>-30,0,0</translation>
+                        <rotation>0,0,0,0</rotation>
+                     </keyframe>
+                     <keyframe>
+                        <time>12.5</time>
+                        <translation>-35,0,0</translation>
+                        <rotation>0,0,0,0</rotation>
+                     </keyframe>
+                     <keyframe>
+                        <time>13.0</time>
+                        <translation>-40,0,0</translation>
+                        <rotation>0,0,0,0</rotation>
+                     </keyframe>
+                     <keyframe>
+                        <time>13.5</time>
+                        <translation>-45,0,0</translation>
+                        <rotation>0,0,0,0</rotation>
+                     </keyframe>
+                     <keyframe>
+                        <time>14.0</time>
+                        <translation>-50,0,0</translation>
+                        <rotation>0,0,0,0</rotation>
+                     </keyframe>
+                     <keyframe>
+                        <time>14.5</time>
+                        <translation>-45,0,0</translation>
+                        <rotation>0,0,0,0</rotation>
+                     </keyframe>
+                     <keyframe>
+                        <time>15.0</time>
+                        <translation>-40,0,0</translation>
+                        <rotation>0,0,0,0</rotation>
+                     </keyframe>
+                     <keyframe>
+                        <time>15.5</time>
+                        <translation>-35,0,0</translation>
+                        <rotation>0,0,0,0</rotation>
+                     </keyframe>
+                     <keyframe>
+                        <time>16.0</time>
+                        <translation>-30,0,0</translation>
+                        <rotation>0,0,0,0</rotation>
+                     </keyframe>
+                     <keyframe>
+                        <time>16.5</time>
+                        <translation>-25,0,0</translation>
+                        <rotation>0,0,0,0</rotation>
+                     </keyframe>
+                     <keyframe>
+                        <time>17.0</time>
+                        <translation>-20,0,0</translation>
+                        <rotation>0,0,0,0</rotation>
+                     </keyframe>
+                     <keyframe>
+                        <time>17.5</time>
+                        <translation>-15,0,0</translation>
+                        <rotation>0,0,0,0</rotation>
+                     </keyframe>
+                     <keyframe>
+                        <time>18.0</time>
+                        <translation>-10,0,0</translation>
+                        <rotation>0,0,0,0</rotation>
+                     </keyframe>
+                     <keyframe>
+                        <time>18.5</time>
+                        <translation>-5,0,0</translation>
+                        <rotation>0,0,0,0</rotation>
+                     </keyframe>
+                     <keyframe>
+                        <time>19.0</time>
+                        <translation>0,0,0</translation>
+                        <rotation>0,0,0,0</rotation>
+                     </keyframe>
+                  </keyframes>
+               </animation>
+               <children>
+                  <child>
+                     <name>RockNode4</name>
+                     <entity>
+                        <name>Rock4</name>
+                        <mesh>Rock.mesh</mesh>
+                        <material>RockMaterial</material>
+                     </entity>
+                     <translation>0,-2,500</translation>
+                     <rotation>90,0,1,0</rotation>
+                     <scale>3,5,4</scale>
+
+                     <children>
+                     </children>
+                  </child>
+               </children>
+            </child>
+            
             <child>
                <animation>
                   <name>MerryAnimation</name>
@@ -294,6 +595,8 @@
                                     </child>
                                  </children>
                               </child>
+                            
+                                
                               <child>
                                  <name>PaddlesTransformNode</name>
                                  <translation>0,0,0</translation>
@@ -328,29 +631,7 @@
                                     </child>
                                  </children>
                               </child>
-                              <child>
-                                 <name>MugiwaraTransform</name>
-                                 <translation>-2.7,2.3,18</translation>
-                                 <rotation>1,0,0,0</rotation>
-                                 <scale>1,1,1</scale>
-                                 <children>
-                                    
-                                          <child>
-                                             <name>MugiwaraNode</name>
-                                             <entity>
-                                                <name>Mugiwara</name>
-                                                <mesh>Mugiwara.mesh</mesh>
-                                                <material>StrawHatMaterial</material>
-                                             </entity>
-                                             <translation>0,0,0</translation>
-                                             <rotation>0,0,0,0</rotation>
-                                             <scale>1,1,1</scale>
-                                             <children>
-                                             </children>
-                                          </child>
-                                   
-                                 </children>
-                              </child>
+               
                            </children>
                         </child>
                      </children>

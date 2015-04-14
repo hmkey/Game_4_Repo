@@ -1,68 +1,84 @@
 ****COMMENT****
-23:00:00
+03:59:34
 Resource metadata loaded.
 ****************
 ****COMMENT****
-23:00:00
+03:59:34
 Scripts parsed successfully.
 ****************
 ****COMMENT****
-23:00:06
+03:59:41
 Meshes loaded successfully.
 ****************
 ****COMMENT****
-23:00:06
+03:59:41
 Entity Ocean successfully placed in scene graph.
 ****************
 ****COMMENT****
-23:00:06
-Entity Boat successfully placed in scene graph.
-****************
-****COMMENT****
-23:00:06
-Entity Engine successfully placed in scene graph.
-****************
-****COMMENT****
-23:00:06
-Entity BackSeat successfully placed in scene graph.
-****************
-****COMMENT****
-23:00:06
-Entity FrontSeat successfully placed in scene graph.
-****************
-****COMMENT****
-23:00:06
-Entity Figurehead successfully placed in scene graph.
-****************
-****COMMENT****
-23:00:06
-Entity RightPaddleCover successfully placed in scene graph.
-****************
-****COMMENT****
-23:00:06
-Entity LeftPaddleCover successfully placed in scene graph.
-****************
-****COMMENT****
-23:00:06
-Entity RightPaddle successfully placed in scene graph.
-****************
-****COMMENT****
-23:00:06
-Entity LeftPaddle successfully placed in scene graph.
-****************
-****COMMENT****
-23:00:06
+03:59:41
 Entity Mugiwara successfully placed in scene graph.
 ****************
 ****COMMENT****
-23:01:35
+03:59:41
+Entity Rock1 successfully placed in scene graph.
+****************
+****COMMENT****
+03:59:41
+Entity Rock2 successfully placed in scene graph.
+****************
+****COMMENT****
+03:59:41
+Entity Rock3 successfully placed in scene graph.
+****************
+****COMMENT****
+03:59:41
+Entity Rock4 successfully placed in scene graph.
+****************
+****COMMENT****
+03:59:41
+Entity Boat successfully placed in scene graph.
+****************
+****COMMENT****
+03:59:41
+Entity Engine successfully placed in scene graph.
+****************
+****COMMENT****
+03:59:41
+Entity BackSeat successfully placed in scene graph.
+****************
+****COMMENT****
+03:59:41
+Entity FrontSeat successfully placed in scene graph.
+****************
+****COMMENT****
+03:59:41
+Entity Figurehead successfully placed in scene graph.
+****************
+****COMMENT****
+03:59:41
+Entity RightPaddleCover successfully placed in scene graph.
+****************
+****COMMENT****
+03:59:41
+Entity LeftPaddleCover successfully placed in scene graph.
+****************
+****COMMENT****
+03:59:41
+Entity RightPaddle successfully placed in scene graph.
+****************
+****COMMENT****
+03:59:41
+Entity LeftPaddle successfully placed in scene graph.
+****************
+****COMMENT****
+03:59:43
 Destructor started.
 ****************
 ****COMMENT****
-23:01:35
+03:59:43
 Resources unloaded successfully.
 ****************
 ****COMMENT****
-23:01:35
+03:59:43
 Destructor completed.
 ****************

@@ -55,39 +55,32 @@ uint32 RenderManager::getCurrBgMusicID()
 
 void RenderManager::processGUIButton(std::string btn_name)
 {
-   //bool oceanOn = false;
-   /*if (btn_name == "MerryAnimation")
+   if (btn_name == "MerryAnimation" && startPressed == false) 
    {
-      //enableBoatAnimation("MerryAnimation");
-   }
-   else if (btn_name == "WindAnimation")
-   {
-     // enableWindAnimation("WindAnimation");
-   }
-   else if (btn_name == "Ocean")
-   {
-         game_manager->playAudio(9, 1);
-   }*/
-   if (btn_name == "MerryAnimation")
-   {
-      //if (!boatSelected)
-      //{
-        //setSelectedNode(btn_name);
-        AnimationState* as = scene_manager->getAnimationState(btn_name);
-       // AnimationState* cam_as = scene_manager->getAnimationState("CameraAnimation");
-        as->setEnabled(true);
-        as->setTimePosition(0);
+      AnimationState* merry_as = scene_manager->getAnimationState(btn_name);
+      AnimationState* cam_as = scene_manager->getAnimationState("CameraAnimation");
+      AnimationState* rock_4_as = scene_manager->getAnimationState("Rock4Animation");
+        
+      //merry_as->setEnabled(true);
+      //merry_as->setTimePosition(0);
 
-        /*cam_as->setEnabled(true);
-        cam_as->setTimePosition(0);*/
+      
+      //cam_as->setEnabled(true);
+      //cam_as->setTimePosition(0);
 
-       // boatSelected = true; 
-      //}
-      /*else
-      {
-        selected_node = NULL;
-        boatSelected = false; 
-      }*/
+      rock_4_as->setEnabled(true);
+      rock_4_as->setLoop(true);
+      rock_4_as->setTimePosition(0);
+
+      startPressed = true;
+   }
+   else if(btn_name == "DodgeLeft") // DO THIS WITH SCRIPT LATER
+   {
+      // Apply force to Merry to go left
+   }
+   else if (btn_name == "DodgeRight") // DO THIS WITH SCRIPT LATER
+   {
+      // Apply force to Merry to go right
    }
    else
    {
@@ -95,7 +88,63 @@ void RenderManager::processGUIButton(std::string btn_name)
    }
 }
 
+void RenderManager::createCameraAnimation(std::string file_name)
+{
 
+  //Camera* cam = scene_manager->getCamera("Camera");
+
+  SceneNode* camera_anim_node = scene_manager->getSceneNode("CameraAnimation");
+  SceneNode* cameraNode = scene_manager->getSceneNode("CameraNode");
+  float values[4];
+ /* root->addChild(cameraNode);
+  cameraNode->attachObject(camera);
+  cameraNode->setPosition(Vector3(0,0,0));*/
+
+  TiXmlDocument doc(file_name.c_str());
+
+  if(doc.LoadFile())
+  {
+    TiXmlNode* cam_anim_node = doc.FirstChild("animation");
+    if (cam_anim_node)
+    {
+      std::string animation_name_txt = camera_anim_node->getName();//GameManager::textFromChildNode(camera_anim_node, "name");
+      //SceneNode* animation_node = scene_manager->createSceneNode(animation_name_txt);
+      std::string animation_seconds_text = GameManager::textFromChildNode(cam_anim_node, "seconds");
+      Ogre::Animation* camAnim = scene_manager->createAnimation(animation_name_txt,  GameManager::parseInt(animation_seconds_text));
+      camAnim->setInterpolationMode(Ogre::Animation::IM_SPLINE);
+
+      Ogre::NodeAnimationTrack* camTrack = camAnim->createNodeTrack(1, cameraNode);
+      //camTrack->setUseShortestRotationPath(true);
+      TiXmlNode* keyframes_xml = cam_anim_node->FirstChild("keyframes");
+      for(TiXmlNode* keyframe_xml = keyframes_xml->FirstChild("keyframe"); keyframe_xml; keyframe_xml = keyframe_xml->NextSibling())
+      {
+        std::string keyframe_xml_time = GameManager::textFromChildNode(keyframe_xml, "time");
+        float time = GameManager::parseFloat(keyframe_xml_time);
+
+        std::string keyframe_xml_translation = GameManager::textFromChildNode(keyframe_xml, "translation");
+        GameManager::parseFloats(keyframe_xml_translation, values);
+        Vector3 vt(values[0], values[1], values[2]);
+
+        std::string keyframe_xml_rotation = GameManager::textFromChildNode(keyframe_xml, "rotation");
+        GameManager::parseFloats(keyframe_xml_rotation, values);
+        Vector3 vr(values[1], values[2], values[3]);
+        Quaternion q(Degree(values[0]), vr);
+
+        Ogre::TransformKeyFrame* cam_key = camTrack->createNodeKeyFrame(time); 
+        cam_key->setTranslate(vt);
+        cam_key->setRotation(q);
+      }
+
+      Ogre::AnimationState* cam_animation_state = scene_manager->createAnimationState(animation_name_txt);
+       //animation_state->setEnabled(true);
+      //animation_state->setLoop(true);
+      cam_animation_state->setEnabled(false);
+      cam_animation_state->setLoop(false);
+
+      animation_states->add(cam_animation_state);
+    }
+  }
+}
 
 void RenderManager::processComboBox(std::string item_name)
 {
@@ -577,6 +626,7 @@ RenderManager::RenderManager(GameManager* gm)
    root->addFrameListener(physics_render_listener);
 
     currBgMusicID = -1; 
+    startPressed = false;
 
 }
 
@@ -691,7 +741,7 @@ void RenderManager::buildSceneFromXML(std::string file_name)
          camera->setNearClipDistance(values[0]);
          camera->setFarClipDistance(values[1]);
 
-         scene_manager->setSkyBox(true, "Skybox", 500, false);
+         scene_manager->setSkyBox(true, "Skybox", 1000, false);
 
          TiXmlNode* light_node = scene_node->FirstChild("light");
 
@@ -732,6 +782,14 @@ void RenderManager::buildSceneFromXML(std::string file_name)
          TiXmlNode* scene_graph_root_node = scene_graph_node->FirstChild("root");
          TiXmlNode* scene_graph_children = scene_graph_root_node->FirstChild("children");
          
+         SceneNode* camAnimNode = scene_manager->createSceneNode("CameraAnimation");
+         SceneNode* parent_node = scene_manager->getRootSceneNode();
+         parent_node->addChild(camAnimNode);
+         SceneNode* camNode = scene_manager->createSceneNode("CameraNode");
+         camAnimNode->addChild(camNode);
+         camNode->attachObject(camera);
+         camNode->setPosition(Vector3(0,0,0));
+
          //children will be attached to the root scene node
          addSceneNodeChildren(scene_graph_children, scene_manager->getRootSceneNode(), values);
       }
@@ -745,7 +803,7 @@ void RenderManager::buildSceneFromXML(std::string file_name)
 
 void RenderManager::addSceneNodeChildren(TiXmlNode* xml_node, SceneNode* parent_node, float* values)
 {
-
+   
    for(TiXmlNode* child_xml_node = xml_node->FirstChild("child"); child_xml_node; child_xml_node = child_xml_node->NextSibling())
    {
       //check for a child animation node

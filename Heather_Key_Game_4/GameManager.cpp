@@ -173,6 +173,7 @@ GameManager::GameManager(std::string scene_file_name)
 
    resource_manager->loadFromXMLFile("resources.xml");
    render_manager->buildSceneFromXML(scene_file_name);  //the group name is now stored in this file
+   render_manager->createCameraAnimation("camera_animation.xml");
    //playAudio(20, 5);
    playAudio(1, 5);
    render_manager->setCurrBgMusicID(1);
