@@ -72,6 +72,14 @@
       <audio_type>stream</audio_type>
    </resource>
 
+   <resource>
+      <uid>10</uid>
+      <scope>1</scope>
+      <resource_type>audio</resource_type>
+      <file_name>./assets/audio/WelcomeFromUsopp.mp3</file_name>
+      <audio_type>sample</audio_type>
+   </resource>
+
 
    <resource>
       <uid>50</uid>

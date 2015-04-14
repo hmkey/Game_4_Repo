@@ -1,94 +1,114 @@
 ****COMMENT****
-06:17:54
+16:46:01
 Resource metadata loaded.
 ****************
 ****COMMENT****
-06:17:54
+16:46:01
 Scripts parsed successfully.
 ****************
 ****COMMENT****
-06:18:01
+16:46:08
 Meshes loaded successfully.
 ****************
 ****COMMENT****
-06:18:01
+16:46:08
 Entity Ocean successfully placed in scene graph.
 ****************
 ****COMMENT****
-06:18:01
+16:46:08
 Entity Mugiwara successfully placed in scene graph.
 ****************
 ****COMMENT****
-06:18:01
+16:46:08
 Entity Rock1 successfully placed in scene graph.
 ****************
 ****COMMENT****
-06:18:02
+16:46:08
 Entity Rock2 successfully placed in scene graph.
 ****************
 ****COMMENT****
-06:18:02
+16:46:08
 Entity Rock3 successfully placed in scene graph.
 ****************
 ****COMMENT****
-06:18:02
+16:46:08
 Entity Rock4 successfully placed in scene graph.
 ****************
 ****COMMENT****
-06:18:02
+16:46:08
 Entity Boat successfully placed in scene graph.
 ****************
 ****COMMENT****
-06:18:02
+16:46:08
 Entity Engine successfully placed in scene graph.
 ****************
 ****COMMENT****
-06:18:02
+16:46:08
 Entity BackSeat successfully placed in scene graph.
 ****************
 ****COMMENT****
-06:18:02
+16:46:08
 Entity FrontSeat successfully placed in scene graph.
 ****************
 ****COMMENT****
-06:18:02
+16:46:08
 Entity Figurehead successfully placed in scene graph.
 ****************
 ****COMMENT****
-06:18:02
+16:46:08
 Entity RightPaddleCover successfully placed in scene graph.
 ****************
 ****COMMENT****
-06:18:02
+16:46:08
 Entity LeftPaddleCover successfully placed in scene graph.
 ****************
 ****COMMENT****
-06:18:02
+16:46:08
 Entity RightPaddle successfully placed in scene graph.
 ****************
 ****COMMENT****
-06:18:02
+16:46:08
 Entity LeftPaddle successfully placed in scene graph.
 ****************
 ****COMMENT****
-06:18:10
+16:46:12
+OGRE EXCEPTION(5:ItemIdentityException): SceneNode 'Opening 13: One Day' not found. in SceneManager::getSceneNode at src\OgreSceneManager.cpp (line 917)
+****************
+****ASSERTION FAILURE****
+16:46:12
+Assertion Failed: 
+Src File: RenderManager.cpp
+Line Number: 382
+*************************
+****COMMENT****
+16:46:15
 OGRE EXCEPTION(5:ItemIdentityException): SceneNode 'Opening 11: Share the World' not found. in SceneManager::getSceneNode at src\OgreSceneManager.cpp (line 917)
 ****************
 ****ASSERTION FAILURE****
-06:18:10
+16:46:15
 Assertion Failed: 
 Src File: RenderManager.cpp
-Line Number: 374
+Line Number: 382
 *************************
 ****COMMENT****
-06:18:36
+16:46:19
+OGRE EXCEPTION(5:ItemIdentityException): SceneNode 'Opening 14: Fight Together' not found. in SceneManager::getSceneNode at src\OgreSceneManager.cpp (line 917)
+****************
+****ASSERTION FAILURE****
+16:46:19
+Assertion Failed: 
+Src File: RenderManager.cpp
+Line Number: 382
+*************************
+****COMMENT****
+16:46:30
 Destructor started.
 ****************
 ****COMMENT****
-06:18:36
+16:46:30
 Resources unloaded successfully.
 ****************
 ****COMMENT****
-06:18:36
+16:46:30
 Destructor completed.
 ****************

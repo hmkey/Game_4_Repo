@@ -57,6 +57,8 @@ void RenderManager::processGUIButton(std::string btn_name)
 {
    if (btn_name == "MerryAnimation" && startPressed == false) 
    {
+      //game_manager->playAudio(1, 5);
+      //setCurrBgMusicID(1);
       AnimationState* merry_as = scene_manager->getAnimationState(btn_name);
       AnimationState* cam_as = scene_manager->getAnimationState("CameraAnimation");
       AnimationState* rock_4_as = scene_manager->getAnimationState("Rock4Animation");
@@ -148,6 +150,8 @@ void RenderManager::createCameraAnimation(std::string file_name)
 
 void RenderManager::processComboBox(std::string item_name)
 {
+  if (startPressed)
+  {
    if (item_name == "Bink's Sake - Default")
    {
        if(currBgMusicID != 1)
@@ -241,7 +245,11 @@ void RenderManager::processComboBox(std::string item_name)
          cout << "Hands Up! is alredy playing." << endl;
        }
    }
-
+  }
+  else
+  {
+    cout << "Can change music once start has been presssed." << endl;
+  }
 }
 
 
