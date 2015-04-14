@@ -8,10 +8,10 @@ material OceanMaterial
     {
         pass OceanMaterial
         {
-            ambient 0.005368133541196585 0.2503575086593628 0.7615382671356201 1.0
-            diffuse 0.002398059996645524 0.11184005050701984 0.3401954218012264 1.0
-            specular 0.5 0.5 0.5 1.0 12.5
-            emissive 0.0 0.0 0.0 1.0
+            ambient 0.00754205696284771 0.022839363664388657 0.7615382671356201 0.784948468208313
+            diffuse 0.00754205696284771 0.022839363664388657 0.7615382671356201 0.784948468208313
+            specular 0.0004420757755631971 0.10763255128037663 0.6396907567977905 0.784948468208313 7.25
+            emissive 0.0 0.0 0.0 0.784948468208313
 
             alpha_to_coverage off
             colour_write on
@@ -30,6 +30,13 @@ material OceanMaterial
             shading gouraud
             transparent_sorting on
 
+            texture_unit 
+            {
+                texture bg_calm_ocen_water.jpg
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
         }
     }
 }

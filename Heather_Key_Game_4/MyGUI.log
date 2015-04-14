@@ -1,225 +1,225 @@
-03:59:41  |  Platform  |  Info  |  * Initialise: RenderManager  |  D:\Ogre\mygui\mygui-master\Platforms\Ogre\OgrePlatform\src\MyGUI_OgreRenderManager.cpp  |  43
-03:59:41  |  Platform  |  Info  |  RenderManager successfully initialized  |  D:\Ogre\mygui\mygui-master\Platforms\Ogre\OgrePlatform\src\MyGUI_OgreRenderManager.cpp  |  71
-03:59:41  |  Platform  |  Info  |  * Initialise: DataManager  |  D:\Ogre\mygui\mygui-master\Platforms\Ogre\OgrePlatform\src\MyGUI_OgreDataManager.cpp  |  27
-03:59:41  |  Platform  |  Info  |  DataManager successfully initialized  |  D:\Ogre\mygui\mygui-master\Platforms\Ogre\OgrePlatform\src\MyGUI_OgreDataManager.cpp  |  35
-03:59:41  |  Core  |  Info  |  * Initialise: Gui  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_Gui.cpp  |  61
-03:59:41  |  Core  |  Info  |  * MyGUI version 3.2.2  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_Gui.cpp  |  66
-03:59:41  |  Core  |  Info  |  * Initialise: ResourceManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  32
-03:59:41  |  Core  |  Info  |  ResourceManager successfully initialized  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  40
-03:59:41  |  Core  |  Info  |  * Initialise: LayerManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  33
-03:59:41  |  Core  |  Info  |  LayerManager successfully initialized  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  41
-03:59:41  |  Core  |  Info  |  * Initialise: WidgetManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_WidgetManager.cpp  |  53
-03:59:41  |  Core  |  Info  |  WidgetManager successfully initialized  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_WidgetManager.cpp  |  84
-03:59:41  |  Core  |  Info  |  * Initialise: InputManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_InputManager.cpp  |  46
-03:59:41  |  Core  |  Info  |  InputManager successfully initialized  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_InputManager.cpp  |  66
-03:59:41  |  Core  |  Info  |  * Initialise: SubWidgetManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_SubWidgetManager.cpp  |  36
-03:59:41  |  Core  |  Info  |  SubWidgetManager successfully initialized  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_SubWidgetManager.cpp  |  56
-03:59:41  |  Core  |  Info  |  * Initialise: SkinManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_SkinManager.cpp  |  36
-03:59:41  |  Core  |  Info  |  SkinManager successfully initialized  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_SkinManager.cpp  |  46
-03:59:41  |  Core  |  Info  |  * Initialise: FontManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_FontManager.cpp  |  32
-03:59:41  |  Core  |  Info  |  FontManager successfully initialized  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_FontManager.cpp  |  42
-03:59:41  |  Core  |  Info  |  * Initialise: ControllerManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ControllerManager.cpp  |  33
-03:59:41  |  Core  |  Info  |  ControllerManager successfully initialized  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ControllerManager.cpp  |  42
-03:59:41  |  Core  |  Info  |  * Initialise: PointerManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_PointerManager.cpp  |  43
-03:59:41  |  Core  |  Info  |  PointerManager successfully initialized  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_PointerManager.cpp  |  62
-03:59:41  |  Core  |  Info  |  * Initialise: ClipboardManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ClipboardManager.cpp  |  32
-03:59:41  |  Core  |  Info  |  ClipboardManager successfully initialized  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ClipboardManager.cpp  |  39
-03:59:41  |  Core  |  Info  |  * Initialise: LayoutManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LayoutManager.cpp  |  28
-03:59:41  |  Core  |  Info  |  LayoutManager successfully initialized  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LayoutManager.cpp  |  35
-03:59:41  |  Core  |  Info  |  * Initialise: DynLibManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_DynLibManager.cpp  |  26
-03:59:41  |  Core  |  Info  |  DynLibManager successfully initialized  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_DynLibManager.cpp  |  30
-03:59:41  |  Core  |  Info  |  * Initialise: PluginManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_PluginManager.cpp  |  30
-03:59:41  |  Core  |  Info  |  PluginManager successfully initialized  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_PluginManager.cpp  |  34
-03:59:41  |  Core  |  Info  |  * Initialise: LanguageManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LanguageManager.cpp  |  30
-03:59:41  |  Core  |  Info  |  LanguageManager successfully initialized  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LanguageManager.cpp  |  34
-03:59:41  |  Core  |  Info  |  * Initialise: FactoryManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_FactoryManager.cpp  |  25
-03:59:41  |  Core  |  Info  |  FactoryManager successfully initialized  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_FactoryManager.cpp  |  27
-03:59:41  |  Core  |  Info  |  * Initialise: ToolTipManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ToolTipManager.cpp  |  33
-03:59:41  |  Core  |  Info  |  ToolTipManager successfully initialized  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ToolTipManager.cpp  |  45
-03:59:41  |  Core  |  Info  |  Load ini file 'MyGUI_GeneratedFonts.xml'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  114
-03:59:41  |  Core  |  Info  |  Load ini file 'MyGUI_Fonts.xml'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  114
-03:59:41  |  Core  |  Info  |  ResourceTrueTypeFont: Font 'DejaVuSansFont_15' using texture size 128 x 256.  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceTrueTypeFont.cpp  |  769
-03:59:41  |  Core  |  Info  |  ResourceTrueTypeFont: Font 'DejaVuSansFont_15' using real height 15 pixels.  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceTrueTypeFont.cpp  |  770
-03:59:41  |  Core  |  Info  |  Load ini file 'MyGUI_CommonSkins.xml'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  114
-03:59:41  |  Core  |  Info  |  Load ini file 'MyGUI_OnePieceTheme.xml'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  114
-03:59:41  |  Core  |  Info  |  Load ini file 'MyGUI_OnePieceImages.xml'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  114
-03:59:41  |  Core  |  Info  |  Load ini file 'MyGUI_OnePieceSkins.xml'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  114
-03:59:41  |  Core  |  Info  |  Load ini file 'MyGUI_OnePieceTemplates.xml'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  114
-03:59:41  |  Core  |  Info  |  Load ini file 'MyGUI_PointerImages.xml'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  114
-03:59:41  |  Core  |  Info  |  Load ini file 'MyGUI_Pointers.xml'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  114
-03:59:41  |  Core  |  Info  |  Load ini file 'MyGUI_Layers.xml'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  114
-03:59:41  |  Core  |  Info  |  Load ini file 'MyGUI_Settings.xml'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  114
-03:59:41  |  Core  |  Info  |  Gui successfully initialized  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_Gui.cpp  |  111
-03:59:41  |  Core  |  Info  |  Load ini file 'MyGUI_GeneratedFonts.xml'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  114
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'DejaVuSansFontGenerated_15'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Info  |  Load ini file 'MyGUI_Fonts.xml'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  114
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'DejaVuSansFont_15'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Info  |  ResourceTrueTypeFont: Font 'DejaVuSansFont_15' using texture size 128 x 256.  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceTrueTypeFont.cpp  |  769
-03:59:41  |  Core  |  Info  |  ResourceTrueTypeFont: Font 'DejaVuSansFont_15' using real height 15 pixels.  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceTrueTypeFont.cpp  |  770
-03:59:41  |  Core  |  Info  |  Load ini file 'MyGUI_CommonSkins.xml'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  114
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'PanelEmpty'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'RotatingSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'TextBoxSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'ImageBox'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'Canvas'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'EditClientSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Info  |  Load ini file 'MyGUI_OnePieceTheme.xml'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  114
-03:59:41  |  Core  |  Info  |  Load ini file 'MyGUI_OnePieceImages.xml'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  114
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'MultiListButtonImage'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Info  |  Load ini file 'MyGUI_OnePieceSkins.xml'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  114
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'CheckBoxSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'RadioButtonSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'ButtonCloseSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'ButtonDownSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'ButtonUpSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'ButtonLeftSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'ButtonRightSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'SliderTrackVSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'ScrollTrackVSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'SliderTrackHSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'ScrollTrackHSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'ButtonSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'ButtonEmptySkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'EditBoxSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'MenuBarSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'MenuItemSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'ScrollPanelHSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'ScrollPanelVSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'ListBoxItemSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'SepDownHSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'SepUpHSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'SepDownVSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'SepUpVSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'ClientDefaultSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'ClientTileSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'PanelSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'WhiteSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'CaptionEmptySkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'CaptionSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'CaptionWithButtonSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'WindowFrameSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'WindowResizeLeftDownSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'WindowResizeRightDownSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'TabHeaderButtonSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'TabHeaderEmptySkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'TabPanelSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'MenuItemNormalSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'MenuItemPopupButtonSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'MenuItemCheckButtonSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'ProgressBarTrackHSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'MultiListButtonSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Info  |  Load ini file 'MyGUI_OnePieceTemplates.xml'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  114
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'CheckBox'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'RadioButton'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'ScrollBarH'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'ScrollBarV'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'SliderH'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'SliderV'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'SliderHEmpty'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'SliderVEmpty'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'Button'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'ButtonImage'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'TextBox'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'EditBox'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'EditBoxStretch'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'EditBoxEmpty'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'WordWrapEmpty'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'ComboBox'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'Window'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'WindowC'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'WindowCS'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'WindowCX'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'WindowCSX'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'MenuBar'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'MenuBarButton'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'MenuBarSeparator'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'PopupMenu'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'PopupMenuSeparator'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'PopupMenuNormal'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'PopupMenuPopup'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'ProgressBar'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'ProgressBarFill'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'ListBoxItem'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'ListBox'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'ItemBox'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'ItemBoxEmpty'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'ScrollView'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'ScrollViewEmpty'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'TabHeaderButton'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'TabControl'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'MultiListBox'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'MultiListButton'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'MultiSubListBox'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Info  |  Load ini file 'MyGUI_PointerImages.xml'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  114
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'ArrowPointerImage'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'BeamPointerImage'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'SizeLeftPointerImage'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'SizeRightPointerImage'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'SizeHorzPointerImage'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'SizeVertPointerImage'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'HandPointerImage'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'LinkPointerImage'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Info  |  Load ini file 'MyGUI_Pointers.xml'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  114
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'arrow'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'beam'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'size_left'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'size_right'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'size_horz'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'size_vert'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'hand'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Warning  |  duplicate resource name 'link'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
-03:59:41  |  Core  |  Info  |  Load ini file 'MyGUI_Layers.xml'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  114
-03:59:41  |  Core  |  Info  |  Load ini file 'MyGUI_Settings.xml'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  114
-03:59:43  |  Core  |  Info  |  * Shutdown: Gui  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_Gui.cpp  |  125
-03:59:43  |  Core  |  Info  |  * Shutdown: PointerManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_PointerManager.cpp  |  69
-03:59:43  |  Core  |  Info  |  PointerManager successfully shutdown  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_PointerManager.cpp  |  86
-03:59:43  |  Core  |  Info  |  * Shutdown: InputManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_InputManager.cpp  |  73
-03:59:43  |  Core  |  Info  |  InputManager successfully shutdown  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_InputManager.cpp  |  78
-03:59:43  |  Core  |  Info  |  * Shutdown: SkinManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_SkinManager.cpp  |  53
-03:59:43  |  Core  |  Info  |  SkinManager successfully shutdown  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_SkinManager.cpp  |  60
-03:59:43  |  Core  |  Info  |  * Shutdown: SubWidgetManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_SubWidgetManager.cpp  |  63
-03:59:43  |  Core  |  Info  |  SubWidgetManager successfully shutdown  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_SubWidgetManager.cpp  |  83
-03:59:43  |  Core  |  Info  |  * Shutdown: LayerManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  48
-03:59:43  |  Core  |  Info  |  destroy layer 'Wallpaper'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  208
-03:59:43  |  Core  |  Info  |  destroy layer 'Back'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  208
-03:59:43  |  Core  |  Info  |  destroy layer 'Overlapped'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  208
-03:59:43  |  Core  |  Info  |  destroy layer 'Middle'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  208
-03:59:43  |  Core  |  Info  |  destroy layer 'Modal'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  208
-03:59:43  |  Core  |  Info  |  destroy layer 'Main'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  208
-03:59:43  |  Core  |  Info  |  destroy layer 'Popup'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  208
-03:59:43  |  Core  |  Info  |  destroy layer 'FadeMiddle'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  208
-03:59:43  |  Core  |  Info  |  destroy layer 'Info'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  208
-03:59:43  |  Core  |  Info  |  destroy layer 'ToolTip'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  208
-03:59:43  |  Core  |  Info  |  destroy layer 'DragAndDrop'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  208
-03:59:43  |  Core  |  Info  |  destroy layer 'FadeBusy'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  208
-03:59:43  |  Core  |  Info  |  destroy layer 'Pointer'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  208
-03:59:43  |  Core  |  Info  |  destroy layer 'Fade'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  208
-03:59:43  |  Core  |  Info  |  destroy layer 'Statistic'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  208
-03:59:43  |  Core  |  Info  |  LayerManager successfully shutdown  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  59
-03:59:43  |  Core  |  Info  |  * Shutdown: FontManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_FontManager.cpp  |  49
-03:59:43  |  Core  |  Info  |  FontManager successfully shutdown  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_FontManager.cpp  |  57
-03:59:43  |  Core  |  Info  |  * Shutdown: ControllerManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ControllerManager.cpp  |  49
-03:59:43  |  Core  |  Info  |  ControllerManager successfully shutdown  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ControllerManager.cpp  |  59
-03:59:43  |  Core  |  Info  |  * Shutdown: ClipboardManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ClipboardManager.cpp  |  46
-03:59:43  |  Core  |  Info  |  ClipboardManager successfully shutdown  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ClipboardManager.cpp  |  54
-03:59:43  |  Core  |  Info  |  * Shutdown: LayoutManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LayoutManager.cpp  |  42
-03:59:43  |  Core  |  Info  |  LayoutManager successfully shutdown  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LayoutManager.cpp  |  49
-03:59:43  |  Core  |  Info  |  * Shutdown: PluginManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_PluginManager.cpp  |  41
-03:59:43  |  Core  |  Info  |  PluginManager successfully shutdown  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_PluginManager.cpp  |  46
-03:59:43  |  Core  |  Info  |  * Shutdown: DynLibManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_DynLibManager.cpp  |  37
-03:59:43  |  Core  |  Info  |  DynLibManager successfully shutdown  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_DynLibManager.cpp  |  44
-03:59:43  |  Core  |  Info  |  * Shutdown: LanguageManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LanguageManager.cpp  |  41
-03:59:43  |  Core  |  Info  |  LanguageManager successfully shutdown  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LanguageManager.cpp  |  45
-03:59:43  |  Core  |  Info  |  * Shutdown: ResourceManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  47
-03:59:43  |  Core  |  Info  |  ResourceManager successfully shutdown  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  57
-03:59:43  |  Core  |  Info  |  * Shutdown: FactoryManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_FactoryManager.cpp  |  34
-03:59:43  |  Core  |  Info  |  FactoryManager successfully shutdown  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_FactoryManager.cpp  |  36
-03:59:43  |  Core  |  Info  |  * Shutdown: ToolTipManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ToolTipManager.cpp  |  52
-03:59:43  |  Core  |  Info  |  ToolTipManager successfully shutdown  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ToolTipManager.cpp  |  57
-03:59:43  |  Core  |  Info  |  * Shutdown: WidgetManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_WidgetManager.cpp  |  91
-03:59:43  |  Core  |  Info  |  WidgetManager successfully shutdown  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_WidgetManager.cpp  |  100
-03:59:43  |  Core  |  Info  |  Gui successfully shutdown  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_Gui.cpp  |  171
-03:59:43  |  Platform  |  Info  |  * Shutdown: RenderManager  |  D:\Ogre\mygui\mygui-master\Platforms\Ogre\OgrePlatform\src\MyGUI_OgreRenderManager.cpp  |  78
-03:59:43  |  Platform  |  Info  |  RenderManager successfully shutdown  |  D:\Ogre\mygui\mygui-master\Platforms\Ogre\OgrePlatform\src\MyGUI_OgreRenderManager.cpp  |  86
-03:59:43  |  Platform  |  Info  |  * Shutdown: DataManager  |  D:\Ogre\mygui\mygui-master\Platforms\Ogre\OgrePlatform\src\MyGUI_OgreDataManager.cpp  |  42
-03:59:43  |  Platform  |  Info  |  DataManager successfully shutdown  |  D:\Ogre\mygui\mygui-master\Platforms\Ogre\OgrePlatform\src\MyGUI_OgreDataManager.cpp  |  44
+04:34:47  |  Platform  |  Info  |  * Initialise: RenderManager  |  D:\Ogre\mygui\mygui-master\Platforms\Ogre\OgrePlatform\src\MyGUI_OgreRenderManager.cpp  |  43
+04:34:47  |  Platform  |  Info  |  RenderManager successfully initialized  |  D:\Ogre\mygui\mygui-master\Platforms\Ogre\OgrePlatform\src\MyGUI_OgreRenderManager.cpp  |  71
+04:34:47  |  Platform  |  Info  |  * Initialise: DataManager  |  D:\Ogre\mygui\mygui-master\Platforms\Ogre\OgrePlatform\src\MyGUI_OgreDataManager.cpp  |  27
+04:34:47  |  Platform  |  Info  |  DataManager successfully initialized  |  D:\Ogre\mygui\mygui-master\Platforms\Ogre\OgrePlatform\src\MyGUI_OgreDataManager.cpp  |  35
+04:34:47  |  Core  |  Info  |  * Initialise: Gui  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_Gui.cpp  |  61
+04:34:47  |  Core  |  Info  |  * MyGUI version 3.2.2  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_Gui.cpp  |  66
+04:34:47  |  Core  |  Info  |  * Initialise: ResourceManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  32
+04:34:47  |  Core  |  Info  |  ResourceManager successfully initialized  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  40
+04:34:47  |  Core  |  Info  |  * Initialise: LayerManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  33
+04:34:47  |  Core  |  Info  |  LayerManager successfully initialized  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  41
+04:34:47  |  Core  |  Info  |  * Initialise: WidgetManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_WidgetManager.cpp  |  53
+04:34:47  |  Core  |  Info  |  WidgetManager successfully initialized  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_WidgetManager.cpp  |  84
+04:34:47  |  Core  |  Info  |  * Initialise: InputManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_InputManager.cpp  |  46
+04:34:47  |  Core  |  Info  |  InputManager successfully initialized  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_InputManager.cpp  |  66
+04:34:47  |  Core  |  Info  |  * Initialise: SubWidgetManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_SubWidgetManager.cpp  |  36
+04:34:47  |  Core  |  Info  |  SubWidgetManager successfully initialized  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_SubWidgetManager.cpp  |  56
+04:34:47  |  Core  |  Info  |  * Initialise: SkinManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_SkinManager.cpp  |  36
+04:34:47  |  Core  |  Info  |  SkinManager successfully initialized  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_SkinManager.cpp  |  46
+04:34:47  |  Core  |  Info  |  * Initialise: FontManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_FontManager.cpp  |  32
+04:34:47  |  Core  |  Info  |  FontManager successfully initialized  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_FontManager.cpp  |  42
+04:34:47  |  Core  |  Info  |  * Initialise: ControllerManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ControllerManager.cpp  |  33
+04:34:47  |  Core  |  Info  |  ControllerManager successfully initialized  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ControllerManager.cpp  |  42
+04:34:47  |  Core  |  Info  |  * Initialise: PointerManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_PointerManager.cpp  |  43
+04:34:47  |  Core  |  Info  |  PointerManager successfully initialized  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_PointerManager.cpp  |  62
+04:34:47  |  Core  |  Info  |  * Initialise: ClipboardManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ClipboardManager.cpp  |  32
+04:34:47  |  Core  |  Info  |  ClipboardManager successfully initialized  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ClipboardManager.cpp  |  39
+04:34:47  |  Core  |  Info  |  * Initialise: LayoutManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LayoutManager.cpp  |  28
+04:34:47  |  Core  |  Info  |  LayoutManager successfully initialized  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LayoutManager.cpp  |  35
+04:34:47  |  Core  |  Info  |  * Initialise: DynLibManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_DynLibManager.cpp  |  26
+04:34:47  |  Core  |  Info  |  DynLibManager successfully initialized  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_DynLibManager.cpp  |  30
+04:34:47  |  Core  |  Info  |  * Initialise: PluginManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_PluginManager.cpp  |  30
+04:34:47  |  Core  |  Info  |  PluginManager successfully initialized  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_PluginManager.cpp  |  34
+04:34:47  |  Core  |  Info  |  * Initialise: LanguageManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LanguageManager.cpp  |  30
+04:34:47  |  Core  |  Info  |  LanguageManager successfully initialized  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LanguageManager.cpp  |  34
+04:34:47  |  Core  |  Info  |  * Initialise: FactoryManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_FactoryManager.cpp  |  25
+04:34:47  |  Core  |  Info  |  FactoryManager successfully initialized  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_FactoryManager.cpp  |  27
+04:34:47  |  Core  |  Info  |  * Initialise: ToolTipManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ToolTipManager.cpp  |  33
+04:34:47  |  Core  |  Info  |  ToolTipManager successfully initialized  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ToolTipManager.cpp  |  45
+04:34:47  |  Core  |  Info  |  Load ini file 'MyGUI_GeneratedFonts.xml'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  114
+04:34:47  |  Core  |  Info  |  Load ini file 'MyGUI_Fonts.xml'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  114
+04:34:47  |  Core  |  Info  |  ResourceTrueTypeFont: Font 'DejaVuSansFont_15' using texture size 128 x 256.  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceTrueTypeFont.cpp  |  769
+04:34:47  |  Core  |  Info  |  ResourceTrueTypeFont: Font 'DejaVuSansFont_15' using real height 15 pixels.  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceTrueTypeFont.cpp  |  770
+04:34:47  |  Core  |  Info  |  Load ini file 'MyGUI_CommonSkins.xml'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  114
+04:34:47  |  Core  |  Info  |  Load ini file 'MyGUI_OnePieceTheme.xml'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  114
+04:34:47  |  Core  |  Info  |  Load ini file 'MyGUI_OnePieceImages.xml'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  114
+04:34:47  |  Core  |  Info  |  Load ini file 'MyGUI_OnePieceSkins.xml'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  114
+04:34:48  |  Core  |  Info  |  Load ini file 'MyGUI_OnePieceTemplates.xml'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  114
+04:34:48  |  Core  |  Info  |  Load ini file 'MyGUI_PointerImages.xml'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  114
+04:34:48  |  Core  |  Info  |  Load ini file 'MyGUI_Pointers.xml'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  114
+04:34:48  |  Core  |  Info  |  Load ini file 'MyGUI_Layers.xml'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  114
+04:34:48  |  Core  |  Info  |  Load ini file 'MyGUI_Settings.xml'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  114
+04:34:48  |  Core  |  Info  |  Gui successfully initialized  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_Gui.cpp  |  111
+04:34:48  |  Core  |  Info  |  Load ini file 'MyGUI_GeneratedFonts.xml'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  114
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'DejaVuSansFontGenerated_15'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Info  |  Load ini file 'MyGUI_Fonts.xml'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  114
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'DejaVuSansFont_15'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Info  |  ResourceTrueTypeFont: Font 'DejaVuSansFont_15' using texture size 128 x 256.  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceTrueTypeFont.cpp  |  769
+04:34:48  |  Core  |  Info  |  ResourceTrueTypeFont: Font 'DejaVuSansFont_15' using real height 15 pixels.  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceTrueTypeFont.cpp  |  770
+04:34:48  |  Core  |  Info  |  Load ini file 'MyGUI_CommonSkins.xml'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  114
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'PanelEmpty'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'RotatingSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'TextBoxSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'ImageBox'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'Canvas'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'EditClientSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Info  |  Load ini file 'MyGUI_OnePieceTheme.xml'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  114
+04:34:48  |  Core  |  Info  |  Load ini file 'MyGUI_OnePieceImages.xml'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  114
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'MultiListButtonImage'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Info  |  Load ini file 'MyGUI_OnePieceSkins.xml'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  114
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'CheckBoxSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'RadioButtonSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'ButtonCloseSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'ButtonDownSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'ButtonUpSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'ButtonLeftSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'ButtonRightSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'SliderTrackVSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'ScrollTrackVSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'SliderTrackHSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'ScrollTrackHSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'ButtonSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'ButtonEmptySkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'EditBoxSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'MenuBarSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'MenuItemSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'ScrollPanelHSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'ScrollPanelVSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'ListBoxItemSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'SepDownHSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'SepUpHSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'SepDownVSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'SepUpVSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'ClientDefaultSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'ClientTileSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'PanelSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'WhiteSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'CaptionEmptySkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'CaptionSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'CaptionWithButtonSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'WindowFrameSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'WindowResizeLeftDownSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'WindowResizeRightDownSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'TabHeaderButtonSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'TabHeaderEmptySkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'TabPanelSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'MenuItemNormalSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'MenuItemPopupButtonSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'MenuItemCheckButtonSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'ProgressBarTrackHSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'MultiListButtonSkin'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Info  |  Load ini file 'MyGUI_OnePieceTemplates.xml'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  114
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'CheckBox'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'RadioButton'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'ScrollBarH'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'ScrollBarV'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'SliderH'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'SliderV'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'SliderHEmpty'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'SliderVEmpty'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'Button'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'ButtonImage'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'TextBox'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'EditBox'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'EditBoxStretch'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'EditBoxEmpty'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'WordWrapEmpty'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'ComboBox'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'Window'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'WindowC'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'WindowCS'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'WindowCX'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'WindowCSX'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'MenuBar'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'MenuBarButton'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'MenuBarSeparator'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'PopupMenu'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'PopupMenuSeparator'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'PopupMenuNormal'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'PopupMenuPopup'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'ProgressBar'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'ProgressBarFill'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'ListBoxItem'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'ListBox'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'ItemBox'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'ItemBoxEmpty'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'ScrollView'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'ScrollViewEmpty'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'TabHeaderButton'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'TabControl'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'MultiListBox'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'MultiListButton'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'MultiSubListBox'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Info  |  Load ini file 'MyGUI_PointerImages.xml'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  114
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'ArrowPointerImage'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'BeamPointerImage'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'SizeLeftPointerImage'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'SizeRightPointerImage'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'SizeHorzPointerImage'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'SizeVertPointerImage'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'HandPointerImage'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'LinkPointerImage'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Info  |  Load ini file 'MyGUI_Pointers.xml'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  114
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'arrow'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'beam'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'size_left'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'size_right'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'size_horz'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'size_vert'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'hand'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Warning  |  duplicate resource name 'link'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  92
+04:34:48  |  Core  |  Info  |  Load ini file 'MyGUI_Layers.xml'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  114
+04:34:48  |  Core  |  Info  |  Load ini file 'MyGUI_Settings.xml'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  114
+04:35:04  |  Core  |  Info  |  * Shutdown: Gui  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_Gui.cpp  |  125
+04:35:04  |  Core  |  Info  |  * Shutdown: PointerManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_PointerManager.cpp  |  69
+04:35:04  |  Core  |  Info  |  PointerManager successfully shutdown  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_PointerManager.cpp  |  86
+04:35:04  |  Core  |  Info  |  * Shutdown: InputManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_InputManager.cpp  |  73
+04:35:04  |  Core  |  Info  |  InputManager successfully shutdown  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_InputManager.cpp  |  78
+04:35:04  |  Core  |  Info  |  * Shutdown: SkinManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_SkinManager.cpp  |  53
+04:35:04  |  Core  |  Info  |  SkinManager successfully shutdown  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_SkinManager.cpp  |  60
+04:35:04  |  Core  |  Info  |  * Shutdown: SubWidgetManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_SubWidgetManager.cpp  |  63
+04:35:04  |  Core  |  Info  |  SubWidgetManager successfully shutdown  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_SubWidgetManager.cpp  |  83
+04:35:04  |  Core  |  Info  |  * Shutdown: LayerManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  48
+04:35:04  |  Core  |  Info  |  destroy layer 'Wallpaper'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  208
+04:35:04  |  Core  |  Info  |  destroy layer 'Back'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  208
+04:35:04  |  Core  |  Info  |  destroy layer 'Overlapped'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  208
+04:35:04  |  Core  |  Info  |  destroy layer 'Middle'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  208
+04:35:04  |  Core  |  Info  |  destroy layer 'Modal'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  208
+04:35:04  |  Core  |  Info  |  destroy layer 'Main'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  208
+04:35:04  |  Core  |  Info  |  destroy layer 'Popup'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  208
+04:35:04  |  Core  |  Info  |  destroy layer 'FadeMiddle'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  208
+04:35:04  |  Core  |  Info  |  destroy layer 'Info'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  208
+04:35:04  |  Core  |  Info  |  destroy layer 'ToolTip'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  208
+04:35:04  |  Core  |  Info  |  destroy layer 'DragAndDrop'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  208
+04:35:04  |  Core  |  Info  |  destroy layer 'FadeBusy'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  208
+04:35:04  |  Core  |  Info  |  destroy layer 'Pointer'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  208
+04:35:04  |  Core  |  Info  |  destroy layer 'Fade'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  208
+04:35:04  |  Core  |  Info  |  destroy layer 'Statistic'  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  208
+04:35:04  |  Core  |  Info  |  LayerManager successfully shutdown  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  59
+04:35:04  |  Core  |  Info  |  * Shutdown: FontManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_FontManager.cpp  |  49
+04:35:04  |  Core  |  Info  |  FontManager successfully shutdown  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_FontManager.cpp  |  57
+04:35:04  |  Core  |  Info  |  * Shutdown: ControllerManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ControllerManager.cpp  |  49
+04:35:04  |  Core  |  Info  |  ControllerManager successfully shutdown  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ControllerManager.cpp  |  59
+04:35:04  |  Core  |  Info  |  * Shutdown: ClipboardManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ClipboardManager.cpp  |  46
+04:35:04  |  Core  |  Info  |  ClipboardManager successfully shutdown  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ClipboardManager.cpp  |  54
+04:35:04  |  Core  |  Info  |  * Shutdown: LayoutManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LayoutManager.cpp  |  42
+04:35:04  |  Core  |  Info  |  LayoutManager successfully shutdown  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LayoutManager.cpp  |  49
+04:35:04  |  Core  |  Info  |  * Shutdown: PluginManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_PluginManager.cpp  |  41
+04:35:04  |  Core  |  Info  |  PluginManager successfully shutdown  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_PluginManager.cpp  |  46
+04:35:04  |  Core  |  Info  |  * Shutdown: DynLibManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_DynLibManager.cpp  |  37
+04:35:04  |  Core  |  Info  |  DynLibManager successfully shutdown  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_DynLibManager.cpp  |  44
+04:35:04  |  Core  |  Info  |  * Shutdown: LanguageManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LanguageManager.cpp  |  41
+04:35:04  |  Core  |  Info  |  LanguageManager successfully shutdown  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_LanguageManager.cpp  |  45
+04:35:04  |  Core  |  Info  |  * Shutdown: ResourceManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  47
+04:35:04  |  Core  |  Info  |  ResourceManager successfully shutdown  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  57
+04:35:04  |  Core  |  Info  |  * Shutdown: FactoryManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_FactoryManager.cpp  |  34
+04:35:04  |  Core  |  Info  |  FactoryManager successfully shutdown  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_FactoryManager.cpp  |  36
+04:35:04  |  Core  |  Info  |  * Shutdown: ToolTipManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ToolTipManager.cpp  |  52
+04:35:04  |  Core  |  Info  |  ToolTipManager successfully shutdown  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_ToolTipManager.cpp  |  57
+04:35:04  |  Core  |  Info  |  * Shutdown: WidgetManager  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_WidgetManager.cpp  |  91
+04:35:04  |  Core  |  Info  |  WidgetManager successfully shutdown  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_WidgetManager.cpp  |  100
+04:35:04  |  Core  |  Info  |  Gui successfully shutdown  |  D:\Ogre\mygui\mygui-master\MyGUIEngine\src\MyGUI_Gui.cpp  |  171
+04:35:04  |  Platform  |  Info  |  * Shutdown: RenderManager  |  D:\Ogre\mygui\mygui-master\Platforms\Ogre\OgrePlatform\src\MyGUI_OgreRenderManager.cpp  |  78
+04:35:04  |  Platform  |  Info  |  RenderManager successfully shutdown  |  D:\Ogre\mygui\mygui-master\Platforms\Ogre\OgrePlatform\src\MyGUI_OgreRenderManager.cpp  |  86
+04:35:04  |  Platform  |  Info  |  * Shutdown: DataManager  |  D:\Ogre\mygui\mygui-master\Platforms\Ogre\OgrePlatform\src\MyGUI_OgreDataManager.cpp  |  42
+04:35:04  |  Platform  |  Info  |  DataManager successfully shutdown  |  D:\Ogre\mygui\mygui-master\Platforms\Ogre\OgrePlatform\src\MyGUI_OgreDataManager.cpp  |  44
