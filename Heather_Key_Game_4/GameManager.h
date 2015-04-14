@@ -25,7 +25,7 @@ class GameManager : public InputListener
       AudioManager* audio_manager;
 
       GameManager(std::string scene_file_name);
-      void init(std::string scene_file_name);
+      void init();
 
    public:
       virtual ~GameManager();
@@ -33,7 +33,6 @@ class GameManager : public InputListener
 
       void updateAudio();
       void playAudio(uint32 audio_id, uint32 num_repeats);
-      void stopAudio(uint32 id);
 
       void loadResources(std::string scope_text);
 
@@ -60,6 +59,7 @@ class GameManager : public InputListener
       void initialiseRenderResourceGroup(std::string group_name);
 
       AudioResourceInfo* createAudioResourceInfo();
+      void destroyAudioResourceInfo(AudioResourceInfo* ar_info);
       void loadSampleAudioResource(std::string file_name, AudioResourceInfo* ar_info);
       void loadStreamAudioResource(std::string file_name, AudioResourceInfo* ar_info);
       void unloadSampleAudioResource(AudioResourceInfo* ar_info);
@@ -67,8 +67,16 @@ class GameManager : public InputListener
 
       static int parseInt(std::string& str);
       static float parseFloat(std::string& str);
+      static const char* i_to_a(int number);
+      static const char* f_to_a(float number);
+      static int a_to_i(const char* str);
+      static float a_to_f(const char* str);
       static void parseFloats(std::string& str, float* values);
       static std::string textFromChildNode(TiXmlNode* parent_node, const char* child_element_name);
+
+      // MY FUNCTIONS //
+      void stopAudio(uint32 id);
+
 };
 
 #endif

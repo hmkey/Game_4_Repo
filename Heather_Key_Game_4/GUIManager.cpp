@@ -5,7 +5,6 @@
 #include "GUIWidgetScript.h"
 
 #include <iostream>
-#include <stdlib.h>
 using namespace std;
 
 GUIManager::GUIManager(RenderManager* rm)
@@ -79,19 +78,40 @@ void GUIManager::loadResourceGroup(std::string resource_group_name)
 
    try
    {
-         buildGUIFromXML("gui.xml");
+      buildGUIFromXML("gui.xml");
    }
    catch (MyGUI::Exception& e)
    {
       render_manager->logComment(e.what());
       //ASSERT(false);
-      exit(1);
    }
 }
 
-/*
+void GUIManager::buttonRotateGUIDelegate(MyGUI::Widget* _sender, int _left, int _top, MyGUI::MouseButton _id) 
+{
+   const string& _name = _sender->getName();
+   string name = _name;
 
-*/
+   render_manager->processGUIButton(name);
+
+   GUIWidgetScript* widget_script = all_widgets->tableRetrieve(&name);
+   if (widget_script)
+   {
+      string script_file_name = widget_script->getFileName();
+      string script_function_name = widget_script->getScriptName();
+
+      //obtain a reference to the combo box
+      MyGUI::ComboBox* combo = MyGUI::Gui::getInstance().findWidget<MyGUI::ComboBox>("SelectMusic");
+      int selected_index = combo->getIndexSelected();
+      string object_name = combo->getItemNameAt(selected_index);
+
+      /*MyGUI::ScrollBar* scroll = MyGUI::Gui::getInstance().findWidget<MyGUI::ScrollBar>("Select_Degrees");
+      int degrees = -1*(scroll->getTrackSize()/2) + scroll->getScrollPosition();*/
+
+      //render_manager->executeRotateScript(script_file_name, script_function_name, object_name, degrees);
+   }
+}
+
 void GUIManager::buttonGUIDelegate(MyGUI::Widget* _sender, int _left, int _top, MyGUI::MouseButton _id) 
 {
    const string& _name = _sender->getName();
@@ -120,9 +140,9 @@ void GUIManager::comboGUIDelegate(MyGUI::ComboBox* _sender, uint32 index)
    const MyGUI::UString item = _sender->getItemNameAt(index);
    //this cast is necessary to make sure that MyGUI classes are not exposed to the render manager
    std::string item_ = (std::string) item;
+   
    render_manager->processComboBox(item);
-
-   //cout << item_.c_str() << endl;
+   cout << item_.c_str() << endl;
    render_manager->setSelectedNode(item_);
 }
 
@@ -170,6 +190,14 @@ void GUIManager::buildGUIFromXML(std::string file_name)
             {
                addComboBoxes(combo_boxes_node, values, w);
             }
+
+            TiXmlNode* scroll_bars_node = window_node->FirstChild("scroll_bars");
+
+            if (scroll_bars_node)
+            {
+               addScrollBars(scroll_bars_node, values, w);
+            }
+
          }
       }
    }
@@ -205,7 +233,7 @@ void GUIManager::addButtons(TiXmlNode* buttons_node, float* values, MyGUI::Windo
       b->setCaption(caption_text);
       b->setFontHeight(font_size);
       b->setTextColour(MyGUI::Colour(0,0,0));
-      b->eventMouseButtonPressed += newDelegate(this, &GUIManager::buttonGUIDelegate);
+      b->eventMouseButtonPressed += newDelegate(this, &GUIManager::buttonRotateGUIDelegate);
 
       GUIWidgetScript* widget_script = new GUIWidgetScript(b, name_text);
       widget_script->setFileName(file_name_text);
@@ -256,23 +284,42 @@ void GUIManager::addComboBoxes(TiXmlNode* combo_boxes_node, float* values, MyGUI
    }
 }
 
-/*
-void GUIManager::genericGUIDelegate(MyGUI::Widget* _sender, int _left, int _top, MyGUI::MouseButton _id) 
+void GUIManager::addScrollBars(TiXmlNode* scroll_bars_node, float* values, MyGUI::Window* w)
 {
-   const string& _name = _sender->getName();
-   string name = _name;
+   for(TiXmlNode* scroll_bar_node = scroll_bars_node->FirstChild("scroll_bar"); scroll_bar_node; scroll_bar_node = scroll_bar_node->NextSibling())
+   {
+      std::string name_text = GameManager::textFromChildNode(scroll_bar_node, "name");
+      std::string skin_text = GameManager::textFromChildNode(scroll_bar_node, "skin");
+      std::string position_text = GameManager::textFromChildNode(scroll_bar_node, "position");
+      GameManager::parseFloats(position_text, values);
+      uint32 left = (uint32) values[0];
+      uint32 top = (uint32) values[1];
 
-   GUIWidgetScript* widget_script = all_widgets->tableRetrieve(&name);
+      std::string size_text = GameManager::textFromChildNode(scroll_bar_node, "size");
+      GameManager::parseFloats(size_text, values);
+      uint32 width = (uint32) values[0];
+      uint32 height = (uint32) values[1];
 
-   string file_name = widget_script->getFileName();
-   string script_name = widget_script->getScriptName();
-   //string object_name = widget_script->getObjectName();
+      std::string align_text = GameManager::textFromChildNode(scroll_bar_node, "align");
 
-   //obtain a reference to the combo box
-   MyGUI::ComboBox* combo = MyGUI::Gui::getInstance().findWidget<MyGUI::ComboBox>("Select_Object");
-   int selected_index = combo->getIndexSelected();
-   string object_name = combo->getItemNameAt(selected_index);
+      std::string track_text = GameManager::textFromChildNode(scroll_bar_node, "track_size");
+      int track_size = GameManager::parseInt(track_text);
 
-   render_manager->executeScript(file_name, script_name, object_name);
+      std::string range_text = GameManager::textFromChildNode(scroll_bar_node, "scroll_range");
+      int scroll_range = GameManager::parseInt(range_text);
+
+      std::string scroll_position_text = GameManager::textFromChildNode(scroll_bar_node, "scroll_position");
+      int scroll_position = GameManager::parseInt(scroll_position_text);
+
+      std::string vertical_text = GameManager::textFromChildNode(scroll_bar_node, "vertical");
+      bool vertical = (vertical_text == "yes");
+
+      //look at MyGUI_BlueWhiteTemplates.xml to find the correct skin
+      MyGUI::ScrollBar* scroll = w->createWidget<MyGUI::ScrollBar>(skin_text, left, top, width, height, MyGUI::Align::Default, name_text);
+
+      scroll->setTrackSize(track_size);
+      scroll->setScrollRange(scroll_range);
+      scroll->setScrollPosition(scroll_position);
+      scroll->setVerticalAlignment(vertical);
+   }
 }
-*/

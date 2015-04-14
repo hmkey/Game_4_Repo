@@ -15,6 +15,8 @@ class AudioResource : public GameResource
       AudioResourceInfo* ar_info;
       AudioType audio_type;
       GameManager* game_manager;
+
+      // My Variables
       uint32 ar_id;
 
    public:
@@ -25,6 +27,8 @@ class AudioResource : public GameResource
       virtual void unload();
 
       AudioResourceInfo* getAudioResourceInfo();
+
+      // My functions
       uint32 getAudioResourceID();
 };
 

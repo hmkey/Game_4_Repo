@@ -1,18 +1,16 @@
 ﻿AutomatedMakefile = am
-CC = g++ -g -O0
-
+CC = g++ 
 
 GAME_PATH=/$(GAME_DRIVE_LETTER)/Heather_Key_Game_4
 
-INC_DIRS=-I./ -I$(GAME_DRIVE_LETTER)/Ogre/include/ -I$(GAME_DRIVE_LETTER)/boost/include/ -I$(GAME_DRIVE_LETTER)/Ogre/ogredeps/include/ -I$(GAME_DRIVE_LETTER)/Ogre/ogredeps/include/OIS -I$(GAME_PATH)/bass_2.4 -I$(GAME_PATH)/MyGUI_3.2.2/MyGUIEngine/include -I$(GAME_PATH)/MyGUI_3.2.2/Platforms/Ogre/OgrePlatform/include -I$(GAME_PATH)/lua_5.3.0 -I$(GAME_PATH)
-LIB_DIRS=-L./ -L$(GAME_DRIVE_LETTER)/Ogre/lib/ -L$(GAME_DRIVE_LETTER)/boost/lib/ -L$(GAME_DRIVE_LETTER)/Ogre/ogredeps/lib/ -L$(GAME_PATH)/bass_2.4 -L$(GAME_PATH)/MyGUI_3.2.2 -L$(GAME_PATH)/lua_5.3.0/lib
-LIBS=-lboost_system-mgw48-mt-1_57 -ltinyxml -lOIS -lbass -llua -lMyGUI.OgrePlatform -lMyGUIEngine -lOgreMain -lfreetype
+INC_DIRS=-I./ -I$(GAME_DRIVE_LETTER)/Ogre/include/ -I$(GAME_DRIVE_LETTER)/boost/include/ -I$(GAME_DRIVE_LETTER)/Ogre/ogredeps/include/ -I$(GAME_DRIVE_LETTER)/Ogre/ogredeps/include/OIS -I$(GAME_PATH)/bass_2.4 -I$(GAME_DRIVE_LETTER)/MyGUI_3.2.2/MyGUIEngine/include -I$(GAME_DRIVE_LETTER)/MyGUI_3.2.2/Platforms/Ogre/OgrePlatform/include -I$(GAME_DRIVE_LETTER)/lua_5.3.0 -I$(GAME_DRIVE_LETTER)/bullet_physics_2.82/include -I$(GAME_PATH)
+LIB_DIRS=-L./ -L$(GAME_DRIVE_LETTER)/Ogre/lib/ -L$(GAME_DRIVE_LETTER)/boost/bin/ -L$(GAME_DRIVE_LETTER)/Ogre/ogredeps/lib/ -L$(GAME_PATH)/bass_2.4 -L$(GAME_DRIVE_LETTER)/MyGUI_3.2.2 -L$(GAME_DRIVE_LETTER)/lua_5.3.0/lib -L$(GAME_DRIVE_LETTER)/bullet_physics_2.82/lib
+LIBS=-lboost_system-mgw48-mt-1_57 -ltinyxml -lOIS -lbass -llua -lMyGUI.OgrePlatform -lMyGUIEngine -lOgreMain -lBulletDynamics -lBulletCollision -lLinearMath -lfreetype
 
 COMPILE = $(CC) $(INC_DIRS) -c 
 LINK = $(CC) $(LIB_DIRS) -o
 
-GAME_FILES = Main.o GameManager.o RenderListener.o InputRenderListener.o AnimationRenderListener.o RenderManager.o LogManager.o GameResource.o PathResource.o MeshResource.o ResourceManager.o InputManager.o AudioResource.o AudioPlayer.o AudioManager.o GUIManager.o ScriptManager.o GUIWidgetScript.o
-QUAT_FILES = Quaternion.o
+GAME_FILES = Main.o GameManager.o RenderListener.o AnimationRenderListener.o InputRenderListener.o PhysicsRenderListener.o RenderManager.o LogManager.o GameResource.o PathResource.o MeshResource.o ResourceManager.o InputManager.o AudioResource.o AudioPlayer.o AudioManager.o GUIManager.o ScriptManager.o GUIWidgetScript.o PhysicsManager.o RigidBody.o BulletSceneNodeMotionState.o OgreBulletDebugDrawer.o
 
 all:	Ogre
 
@@ -39,6 +37,9 @@ AnimationRenderListener.o:	AnimationRenderListener.h AnimationRenderListener.cpp
 
 InputRenderListener.o:		InputRenderListener.h InputRenderListener.cpp
 				$(COMPILE) InputRenderListener.cpp
+
+PhysicsRenderListener.o:	PhysicsRenderListener.h PhysicsRenderListener.cpp
+				$(COMPILE) PhysicsRenderListener.cpp
 
 LogManager.o:		LogManager.h LogManager.cpp
 			$(COMPILE) LogManager.cpp
@@ -78,6 +79,18 @@ ScriptManager.o:	ScriptManager.h ScriptManager.cpp
 
 GUIWidgetScript.o:	GUIWidgetScript.h GUIWidgetScript.cpp
 			$(COMPILE) GUIWidgetScript.cpp
+
+PhysicsManager.o:	PhysicsManager.h PhysicsManager.cpp
+			$(COMPILE) PhysicsManager.cpp
+
+RigidBody.o:		RigidBody.h RigidBody.cpp
+			$(COMPILE) RigidBody.cpp
+
+BulletSceneNodeMotionState.o:	BulletSceneNodeMotionState.h BulletSceneNodeMotionState.cpp
+				$(COMPILE) BulletSceneNodeMotionState.cpp
+
+OgreBulletDebugDrawer.o:	OgreBulletUtils.h OgreBulletDebugDrawer.h OgreBulletDebugDrawer.cpp
+				$(COMPILE) OgreBulletDebugDrawer.cpp
 
 
 

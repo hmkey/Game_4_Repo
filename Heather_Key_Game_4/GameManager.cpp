@@ -7,6 +7,18 @@
 
 #include <stdlib.h>  //atoi, atof (actual include not needed?)
 
+// ** MY FUNCTIONS START HERE ** // 
+
+void GameManager::stopAudio(uint32 id)
+{
+   if (id != -1)
+   {
+      audio_manager->stopAudio(id);
+   }
+}
+
+// ** MY FUNCTIONS END HERE ** //
+
 void GameManager::playAudio(uint32 audio_id, uint32 num_repeats)
 {
    //check to make sure the audio is loaded before attempting to play it
@@ -18,14 +30,6 @@ void GameManager::playAudio(uint32 audio_id, uint32 num_repeats)
    }
 }
 
-void GameManager::stopAudio(uint32 id)
-{
-   if (id != -1)
-   {
-      audio_manager->stopAudio(id);
-   }
-}
-
 void GameManager::updateAudio()
 {
    audio_manager->updateAudio();
@@ -34,6 +38,11 @@ void GameManager::updateAudio()
 AudioResourceInfo* GameManager::createAudioResourceInfo()
 {
    return audio_manager->createAudioResourceInfo();
+}
+
+void GameManager::destroyAudioResourceInfo(AudioResourceInfo* ar_info)
+{
+   audio_manager->destroyAudioResourceInfo(ar_info);
 }
 
 void GameManager::loadSampleAudioResource(std::string file_name, AudioResourceInfo* ar_info)
@@ -74,9 +83,7 @@ void GameManager::keyPressed(std::string game_key)
       //delete this;
       //exit(0);
    }
-
 }
-
 
 void GameManager::keyReleased(std::string game_key)
 {
@@ -101,13 +108,6 @@ void GameManager::mouseMoved(uint32 mouse_x, uint32 mouse_y, int mouse_rel_x, in
 void GameManager::joystickButtonPressed(std::string button)
 {
    cout << button << endl;
-
-   if (button == "BACK")
-   {
-      render_manager->stopRendering();
-      //delete this;
-      //exit(0);
-   }
 }
 
 void GameManager::joystickAxisMoved(int* amount)
@@ -158,36 +158,24 @@ GameManager* GameManager::getGameManager(std::string scene_file_name)
    return &game_manager;  //won't go out of scope as game_manager is static
 }
 
-void GameManager::init(std::string scene_file_name)
+void GameManager::init()
 {
-   cout << "gm init" <<endl;
    log_manager = new LogManager("log.txt");
-   render_manager = new RenderManager(this);  //calls render manager's init, sets up the frame listener
+   render_manager = new RenderManager(this);  //calls render manager's init, sets up the frame listener(s)
    audio_manager = new AudioManager(this);
    input_manager = new InputManager(this);
-
    resource_manager = new ResourceManager(this);
-   resource_manager->loadFromXMLFile("resources.xml");
-
-   render_manager->buildSceneFromXML(scene_file_name);  //the group name is now stored in this file
-   //resource_manager->unloadResources();
-   //render_manager->buildSceneFromXML(scene_file_name);
-   playAudio(1, 5);
-   render_manager->setCurrBgMusicID(1);
-
-   //playAudio(9,1);
 }
 
 GameManager::GameManager(std::string scene_file_name)
 {
-   if (scene_file_name == "")
-   {
-      log_manager->logComment("No scene file specified.");
-      exit(0);
-   }
+   init();
 
-   init(scene_file_name);
-
+   resource_manager->loadFromXMLFile("resources.xml");
+   render_manager->buildSceneFromXML(scene_file_name);  //the group name is now stored in this file
+   //playAudio(20, 5);
+   playAudio(1, 5);
+   render_manager->setCurrBgMusicID(1);
    render_manager->startRendering();
 }
 
@@ -196,10 +184,11 @@ GameManager::~GameManager()
    log_manager->logComment("Destructor started.");
    resource_manager->unloadResources();
 
-   delete audio_manager;  //crashes unless moved here
    delete resource_manager;
+   delete audio_manager;  //crashes here (not anymore?)
    delete input_manager;
    delete render_manager;
+
    log_manager->logComment("Destructor completed.");
    delete log_manager;
 }
@@ -217,6 +206,46 @@ int GameManager::getRenderWindowWidth()
 int GameManager::getRenderWindowHeight()
 {
    return render_manager->getRenderWindowHeight();
+}
+
+const char* GameManager::i_to_a(int number)
+{
+   stringstream out;
+   out << number;
+
+   string orig_text = out.str();
+   int len = orig_text.length();
+   char* text = new char[len+1];
+   for (int i = 0; i <= len; i++)  //copy over null terminator
+   {
+      text[i] = orig_text[i];
+   }
+   return text;
+}
+
+const char* GameManager::f_to_a(float number)
+{
+   stringstream out;
+   out << number;
+
+   string orig_text = out.str();
+   int len = orig_text.length();
+   char* text = new char[len+1];
+   for (int i = 0; i <= len; i++)  //copy over null terminator
+   {
+      text[i] = orig_text[i];
+   }
+   return text;
+}
+
+int GameManager::a_to_i(const char* str)
+{
+   return atoi(str);
+}
+
+float GameManager::a_to_f(const char* str)
+{
+   return atof(str);
 }
 
 int GameManager::parseInt(std::string& str)

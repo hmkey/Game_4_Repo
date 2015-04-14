@@ -271,9 +271,13 @@ uint32 InputManager::mouseMap(const OIS::MouseButtonID id)
 
    if (mouse_code == OIS::MB_Left)
    {
-      game_mouse = 1;
+      game_mouse = 0;
    }
    else if (mouse_code == OIS::MB_Right)
+   {
+      game_mouse = 1;
+   }
+   else  //center mouse button
    {
       game_mouse = 2;
    }
@@ -305,22 +309,12 @@ std::string InputManager::joystickButtonMap(int button)
 
    else if (button == 4)
    {
-      return "LB";
-   }
-
-   else if (button == 6)
-   {
-      return "BACK";
-   }
-
-   else if (button == 7)
-   {
-      return "SELECT";
+      return "L";
    }
 
    else
    {
-      return "RB";
+      return "R";
    }
 }
 

@@ -19,8 +19,9 @@ class GUIManager
 
       RenderManager* render_manager;
 
-      void addButtons(TiXmlNode* buttons_node, float* value, MyGUI::Window* w);
-      void addComboBoxes(TiXmlNode* combo_boxes_node, float* value, MyGUI::Window* w);
+      void addButtons(TiXmlNode* buttons_node, float* values, MyGUI::Window* w);
+      void addComboBoxes(TiXmlNode* combo_boxes_node, float* values, MyGUI::Window* w);
+      void addScrollBars(TiXmlNode* scroll_bars_node, float* values, MyGUI::Window* w);
 
    public:
       GUIManager(RenderManager* render_manager);
@@ -35,8 +36,9 @@ class GUIManager
       void mousePressed(uint32 mouse_x, uint32 mouse_y, uint32 game_mouse);
       void mouseReleased(uint32 mouse_x, uint32 mouse_y, uint32 game_mouse);
 
-      void buttonGUIDelegate(MyGUI::Widget* _sender, int _left, int _top, MyGUI::MouseButton _id);
+      void buttonRotateGUIDelegate(MyGUI::Widget* _sender, int _left, int _top, MyGUI::MouseButton _id);
       void comboGUIDelegate(MyGUI::ComboBox* _sender, uint32 index);
+      void buttonGUIDelegate(MyGUI::Widget* _sender, int _left, int _top, MyGUI::MouseButton _id);
 
 };
 

@@ -5,7 +5,7 @@
    <window>
 
       <name>Window1</name>
-      <caption>Window</caption>
+      <caption>Mini Merry Adventures!</caption>
       <skin>WindowC</skin>
       <position>250,450</position>
       <size>310,150</size>
@@ -13,10 +13,15 @@
       <layer>Overlapped</layer>
 
    <buttons>
-
-
-
-
+      <button>
+         <name>MerryAnimation</name>
+         <caption>Start</caption>
+         <skin>Button</skin>
+         <position>105,10</position>
+         <size>95,40</size>
+         <align>Default</align>
+         <font>20</font>
+      </button>
    </buttons>
 
    <combo_boxes>

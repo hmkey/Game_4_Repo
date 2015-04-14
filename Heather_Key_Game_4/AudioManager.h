@@ -27,9 +27,9 @@ class AudioManager
       virtual ~AudioManager();
 
       AudioResourceInfo* createAudioResourceInfo();
+      void destroyAudioResourceInfo(AudioResourceInfo* ar_info);
 
       void init(int Device = 1, DWORD SampleRate = 44100, DWORD flags = 0, HWND win = 0);
-      void free();
 
       void setVolume(float volume) {BASS_SetVolume(volume);}
       void pause() {BASS_Pause();}
@@ -39,12 +39,15 @@ class AudioManager
 
       void updateAudio();
       void playAudio(AudioResource* ar, uint32 num_repeats);
-      void stopAudio(uint32 id);
 
       void loadSampleAudioResource(std::string file_name, AudioResourceInfo* ar_info);
       void loadStreamAudioResource(std::string file_name, AudioResourceInfo* ar_info);
       void unloadSampleAudioResource(AudioResourceInfo* ar_info);
       void unloadStreamAudioResource(AudioResourceInfo* ar_info);
+
+      // MY FUNCTIONS
+      void stopAudio(uint32 id);
+
 };
 
 #endif

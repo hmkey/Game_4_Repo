@@ -9,7 +9,13 @@
 
 class GameManager;
 class GUIManager;
-//class ScriptManager;
+class ScriptManager;
+class PhysicsManager;
+
+struct SceneNodeMotion
+{
+   Ogre::SceneNode* scene_node;
+};
 
 class RenderManager
 {
@@ -26,18 +32,23 @@ class RenderManager
       Ogre::Camera* camera;
       Ogre::Viewport* viewport;
 
-      //ScriptManager* script_manager;
+      PhysicsManager* physics_manager;
+      ScriptManager* script_manager;
       GUIManager* gui_manager;
       GameManager* game_manager;
-      RenderListener* render_listener;
-      uint32 currBgMusicID;
+
+      RenderListener* animation_render_listener;
+      RenderListener* input_render_listener;
+      RenderListener* physics_render_listener;
 
       void init();
       size_t window_handle;
       Ogre::Real time_since_last_frame;
-      bool bgMusicChosen;
+
 
       std::string loaded_group;
+
+      uint32 currBgMusicID;
 
       void addSceneNodeChildren(TiXmlNode* xml_node, Ogre::SceneNode* parent_node, float* values);
       void addSceneNodeAnimation(TiXmlNode* animation_node_xml, Ogre::SceneNode* child_scene_node, std::string animation_name_text, float* values);
@@ -102,17 +113,26 @@ class RenderManager
 
       void setSelectedNode(std::string item);
       void logComment(std::string comment_message);
-      void executeScript(std::string file_name, std::string script_name, std::string object_name);
+      void executeRotateScript(std::string file_name, std::string script_name, std::string object_name, int degrees);
 
+      void setOrientation(SceneNodeMotion* scene_node_motion, double w, double x, double y, double z);
+      void setPosition(SceneNodeMotion* scene_node_motion, double x, double y, double z);
+      float* getOrientation(SceneNodeMotion* scene_node_motion);
+      float* getPosition(SceneNodeMotion* scene_node_motion);
+
+      void applyTorque(std::string name, float pitch, float yaw, float roll);
+      void stepPhysicsSimulation(float elapsed_time);
+      void destroySceneNodeMotion(SceneNodeMotion* snm);
+
+      // My Functions
+      void processGUIButton(std::string btn_name);
+      void processComboBox(std::string item_name);
       void setCurrBgMusicID(uint32 id);
       uint32 getCurrBgMusicID();
 
-      void processGUIButton(std::string btn_name);
-      void processComboBox(std::string item_name);
-      void enableBoatAnimation(std::string ani_name);
-      void enableWindAnimation(std::string ani_name);
-      void playRandomAudioSample(); // add if have time
-      //void changeBgMusic()// if have time add this.
+
+      void executeScript(std::string file_name, std::string script_name, std::string object_name);
+
 };
 
 #endif

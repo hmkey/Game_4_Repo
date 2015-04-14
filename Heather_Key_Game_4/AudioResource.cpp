@@ -12,9 +12,20 @@ AudioResource::AudioResource(uint32 id, std::string scope, std::string file_name
 
 AudioResource::~AudioResource()
 {
-   free(ar_info);
+   game_manager->destroyAudioResourceInfo(ar_info);
+   ar_info = NULL;
    game_manager = NULL;
 }
+
+// ** MY FUNCTIONS START HERE ** // 
+
+uint32 AudioResource::getAudioResourceID()
+{
+   return ar_id;
+}
+
+// ** MY FUNCTIONS END HERE ** // 
+
 
 AudioResourceInfo* AudioResource::getAudioResourceInfo()
 {
@@ -43,9 +54,4 @@ void AudioResource::unload()
    {
       game_manager->unloadStreamAudioResource(ar_info);
    }
-}
-
-uint32 AudioResource::getAudioResourceID()
-{
-   return ar_id;
 }
