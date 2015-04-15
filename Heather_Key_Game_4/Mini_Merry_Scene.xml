@@ -65,14 +65,11 @@
                         <material>StrawHatMaterial</material>
                      </entity>
                      <translation>-2.7,30,18</translation>
-                     <rotation>0,0,0,0</rotation>
+                     <rotation>0,0,1,0</rotation>
                      <scale>1,1,1</scale>
 
                      <physics>
-                        <object>MugiwaraNode</object>
                         <collision_shape>box</collision_shape>
-                        <translation>0,0,0</translation>
-                        <rotation>0,0,0,1</rotation>
                         <collision_paramaters>1.1,1.5,2</collision_paramaters>
                         <mass>1</mass>
                      </physics>
@@ -95,10 +92,7 @@
                <scale>3,5,3</scale>
 
                 <physics>
-                  <object>RockNode1</object>
                   <collision_shape>box</collision_shape>
-                  <translation>0,0,80</translation>
-                  <rotation>0,0,0,1</rotation>
                   <collision_paramaters>5,7,10</collision_paramaters>
                   <mass>3</mass>
                </physics>
